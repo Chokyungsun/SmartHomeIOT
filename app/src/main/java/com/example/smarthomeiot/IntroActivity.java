@@ -9,7 +9,7 @@ public class IntroActivity extends Activity {
     super.onCreate(savedInstanceState);
 
         try {
-        Thread.sleep(4000); // 4초 인트로 화면 보여주기
+        Thread.sleep(3000); // 2초 인트로 화면 보여주기
 
     } catch (InterruptedException e) {
         e.printStackTrace();
