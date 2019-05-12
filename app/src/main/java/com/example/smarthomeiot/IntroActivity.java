@@ -8,8 +8,8 @@ public class IntroActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-        try {
-        Thread.sleep(3000); // 2초 인트로 화면 보여주기
+    try {
+        Thread.sleep(3000); // 3초 인트로 화면 보여주기
 
     } catch (InterruptedException e) {
         e.printStackTrace();
