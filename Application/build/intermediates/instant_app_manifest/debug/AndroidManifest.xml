@@ -18,8 +18,8 @@
     <application
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@drawable/logo"
+        android:label="IoT"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity

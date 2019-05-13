@@ -491,6 +491,11 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAccent
+color colorDivider
+color colorPrimary
+color colorPrimaryDark
+color colorPrimaryLight
 color design_bottom_navigation_shadow_color
 color design_error
 color design_fab_shadow_end_color
@@ -546,8 +551,11 @@ color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color textColorPrimary
+color textColorSecondary
 color tooltip_background_dark
 color tooltip_background_light
+color windowBackground
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -810,6 +818,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_action_device_access_bluetooth_searching
 drawable ic_launcher
+drawable logo
 drawable mon1
 drawable navigation_empty_icon
 drawable notification_action_background
@@ -824,6 +833,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pic
 drawable tile
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1009,12 +1019,14 @@ id start
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
+id switch1
 id tabMode
 id tag_transition_group
 id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textView
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1039,6 +1051,7 @@ id username
 id vertical
 id view_offset_helper
 id visible
+id window
 id withText
 id wrap
 id wrap_content
@@ -1081,6 +1094,7 @@ layout abc_select_dialog_material
 layout activity_device_list
 layout activity_login
 layout activity_main
+layout activity_mode
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1364,6 +1378,7 @@ style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
 style Base_Widget_Design_AppBarLayout
 style Base_Widget_Design_TabLayout
+style BaseTheme
 style CardView
 style CardView_Dark
 style CardView_Light
