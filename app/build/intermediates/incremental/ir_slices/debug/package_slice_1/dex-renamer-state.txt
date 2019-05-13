@@ -1,0 +1,4 @@
+#Mon May 13 00:21:20 KST 2019
+base.0=/Users/heojoon/Downloads/android-BluetoothChat/Application/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex
