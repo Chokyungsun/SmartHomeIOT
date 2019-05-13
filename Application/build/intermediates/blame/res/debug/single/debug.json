@@ -836,6 +836,10 @@
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_pic.png.flat",
+        "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\drawable-mdpi\\pic.png"
+    },
+    {
         "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1042,6 +1046,10 @@
     {
         "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_ab_back_material.xml.flat",
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\layout_activity_mode.xml.flat",
+        "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\layout\\activity_mode.xml"
     },
     {
         "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -1524,6 +1532,10 @@
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo.png.flat",
+        "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\drawable-mdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable\\abc_ratingbar_material.xml"
     },
@@ -1688,16 +1700,16 @@
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\9d4eec268a3b4bc99a6933c7efb22779\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
     {
-        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
-        "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\a3a17063e931441e015dbf33f9e3a552\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
+        "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\a3a17063e931441e015dbf33f9e3a552\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",

@@ -15,35 +15,40 @@
   -->
 <LinearLayout
       xmlns:android="http://schemas.android.com/apk/res/android"
-      android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:id="@+id/sample_main_layout">
 
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startApp"
+        android:text="블루투스 연결" />
+
     <ViewAnimator
-          android:id="@+id/sample_output"
-          android:layout_width="match_parent"
-          android:layout_height="0px"
-          android:layout_weight="1">
+        android:id="@+id/sample_output"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:visibility="invisible">
 
         <ScrollView
-              style="@style/Widget.SampleMessageTile"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+            style="@style/Widget.SampleMessageTile"
+            android:layout_width="136dp"
+            android:layout_height="165dp"
+            tools:visibility="invisible">
 
-            <Button
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:onClick="startApp"
-                android:text="Button" />
         </ScrollView>
 
         <fragment
-              android:name="com.example.android.common.logger.LogFragment"
-              android:id="@+id/log_fragment"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent" />
+            android:id="@+id/log_fragment"
+            android:name="com.example.android.common.logger.LogFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
     </ViewAnimator>
 
@@ -53,10 +58,11 @@
           android:background="@android:color/darker_gray" />
 
     <FrameLayout
-          android:id="@+id/sample_content_fragment"
-          android:layout_weight="2"
-          android:layout_width="match_parent"
-          android:layout_height="0px" >
+        android:id="@+id/sample_content_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_weight="2"
+        tools:visibility="invisible">
 
         <Button
             android:id="@+id/button"
