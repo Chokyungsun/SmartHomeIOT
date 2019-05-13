@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\08394591ad0e3f39fc91711c019af8e4\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
