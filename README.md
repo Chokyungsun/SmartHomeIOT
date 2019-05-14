@@ -26,6 +26,24 @@
 <img src= "Application/src/main/res/drawable-mdpi/logo.png" alt="Application Logo" width="300">
 </p>
 
+
+## ❯ Getting started
+
+Application for handle IoT service, based on Bluetooth service with Resberry Pi. 
+
+* [Install](#-install)
+* [Usage](#-usage)
+* [SmartHome,IoT](#-SmartHome,IoT)
+* [Rasberry Pi](#-Raberry-Pi)
+* [Options](#-options)
+* [Release History](#-release-history)
+* [Performance](#-performance)
+* [QnA](#-QnA)
+* [About](#-about)
+
+<br>
+
+
 <br>
 <!-- <br>
 
@@ -55,24 +73,11 @@ _(If you like Enquirer, you might also like [micromatch](https://github.com/micr
 <img src="https://github.com/enquirer/enquirer/raw/master/media/heartbeat.gif" alt="Enquirer Select Prompt with heartbeat example" width="750">
 </p>
 
-<br>-->
 <br>
-
-## ❯ Getting started
-
-Application for handle IoT service, based on Bluetooth service with Resberry Pi. 
-
-* [Install](#-install)
-* [Usage](#-usage)
-* [SmartHome,IoT](#-SmartHome,IoT)
-* [Rasberry Pi](#-Raberry-Pi)
-* [Options](#-options)
-* [Release History](#-release-history)
-* [Performance](#-performance)
-* [QnA](#-QnA)
-* [About](#-about)
-
 <br>
+-->
+
+
 <!--
 ## ❯ Install
 
