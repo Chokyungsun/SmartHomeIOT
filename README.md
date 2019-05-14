@@ -23,7 +23,7 @@
 <br>
 
 <p align="center">
-<img src= alt="Application Logo" width="750">
+<img src= "SmartHomeIOT/Application/src/main/res/drawable-mdpi/logo/png" alt="Application Logo" width="750">
 </p>
 
 <br>
