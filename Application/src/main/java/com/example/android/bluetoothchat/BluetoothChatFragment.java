@@ -43,6 +43,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.android.bluetoothchat.ui.login.LoginActivity;
 import com.example.android.common.logger.Log;
 
 import java.io.Serializable;
@@ -309,6 +310,10 @@ public class BluetoothChatFragment extends Fragment implements Serializable {
                     // construct a string from the valid bytes in the buffer
                     String readMessage = new String(readBuf, 0, msg.arg1);
                     mConversationArrayAdapter.add(mConnectedDeviceName + ":  " + readMessage);
+                    if(readMessage.equals("detected")){
+                        Log.e(TAG, "calling alert func");
+                        LoginActivity.alert();
+                    }
                     break;
                 case Constants.MESSAGE_DEVICE_NAME:
                     // save the connected device's name

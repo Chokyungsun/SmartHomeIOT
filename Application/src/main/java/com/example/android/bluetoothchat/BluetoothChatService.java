@@ -167,7 +167,7 @@ public class BluetoothChatService  {
 
         // Start the thread to connect with the given device
         mConnectThread = new ConnectThread(device, secure);
-        mConnectThread.start();
+        mConnectThread.start(); // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         // Update UI title
         updateUserInterfaceTitle();
     }
@@ -539,10 +539,9 @@ public class BluetoothChatService  {
                 try {
                     // Read from the InputStream
                     bytes = mmInStream.read(buffer);
-
+                    Log.e(TAG, "recv");
                     // Send the obtained bytes to the UI Activity
-                    mHandler.obtainMessage(Constants.MESSAGE_READ, bytes, -1, buffer)
-                            .sendToTarget();
+                    mHandler.obtainMessage(Constants.MESSAGE_READ, bytes, -1, buffer).sendToTarget();
                 } catch (IOException e) {
                     Log.e(TAG, "disconnected", e);
                     connectionLost();
@@ -559,7 +558,7 @@ public class BluetoothChatService  {
         public void write(byte[] buffer) {
             try {
                 mmOutStream.write(buffer);
-
+                Log.e(TAG, "sent");
                 // Share the sent message back to the UI Activity
                 mHandler.obtainMessage(Constants.MESSAGE_WRITE, -1, -1, buffer)
                         .sendToTarget();

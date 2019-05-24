@@ -45,6 +45,7 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name=".ModeActivity"/>
     </application>
 
 </manifest>

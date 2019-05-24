@@ -1,10 +1,29 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "outputFile": "/Users/kimminhyung/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\9d4eec268a3b4bc99a6933c7efb22779\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/kimminhyung/SmartHomeIOT/Application/src/main/res/values-sw600dp/template-styles.xml",
+                    "from": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "621",
+                        "endLines": "22",
+                        "endColumns": "12",
+                        "endOffsets": "861"
+                    },
+                    "to": {
+                        "startLines": "25",
+                        "startColumns": "4",
+                        "startOffsets": "1551",
+                        "endLines": "29",
+                        "endColumns": "12",
+                        "endOffsets": "1791"
+                    }
+                },
+                {
+                    "source": "/Users/kimminhyung/.gradle/caches/transforms-2/files-2.1/1886e065a043bfe824bdd9ddf1b9ff2d/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,26 +42,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\values-sw600dp\\template-styles.xml",
-                    "from": {
-                        "startLines": "18",
-                        "startColumns": "4",
-                        "startOffsets": "639",
-                        "endLines": "22",
-                        "endColumns": "12",
-                        "endOffsets": "883"
-                    },
-                    "to": {
-                        "startLines": "25",
-                        "startColumns": "4",
-                        "startOffsets": "1551",
-                        "endLines": "29",
-                        "endColumns": "12",
-                        "endOffsets": "1791"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\7209e48f61998dd3b1e15d3047f70b8d\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "/Users/kimminhyung/.gradle/caches/transforms-2/files-2.1/8a277ae151425be95f38510f40efc7b6/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -52,13 +52,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\values-sw600dp\\template-dimens.xml",
+                    "source": "/Users/kimminhyung/SmartHomeIOT/Application/src/main/res/values-sw600dp/template-dimens.xml",
                     "from": {
                         "startLines": "20,21",
                         "startColumns": "4,4",
-                        "startOffsets": "676,745",
+                        "startOffsets": "656,724",
                         "endColumns": "67,67",
-                        "endOffsets": "739,808"
+                        "endOffsets": "719,787"
                     },
                     "to": {
                         "startLines": "18,19",
