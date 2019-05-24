@@ -548,6 +548,7 @@ public class BluetoothChatService  {
                     break;
                 }
             }
+            Log.e(TAG,"while out");
         }
 
         /**
