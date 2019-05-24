@@ -10,8 +10,7 @@
         android:targetSdkVersion="27" />
     <!-- Min/target SDK versions (<uses-sdk>) managed by build.gradle -->
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
-    <uses-permission android:name="android.permission.BLUETOOTH" />
-    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
@@ -22,11 +21,11 @@
         android:icon="@drawable/logo"
         android:label="IoT"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.android.bluetoothchat.MapActivity" />
         <activity
             android:name="com.example.android.bluetoothchat.ui.login.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.AppCompat" />
-        <!-- 시작 액티비티 설정 부분 -->
+            android:theme="@style/Theme.AppCompat" /> <!-- 시작 액티비티 설정 부분 -->
         <activity
             android:name="com.example.android.bluetoothchat.IntroActivity"
             android:theme="@style/IntroTheme" >
@@ -51,7 +50,9 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog" />
-        <activity android:name="com.example.android.bluetoothchat.ModeActivity" />
+        <activity
+            android:name="com.example.android.bluetoothchat.ModeActivity"
+            android:theme="@style/Theme.AppCompat" />
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"

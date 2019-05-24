@@ -5,11 +5,9 @@ import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
 import android.content.Intent;
-import android.nfc.Tag;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
-import android.support.design.widget.TabLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -21,14 +19,12 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.android.bluetoothchat.ModeActivity;
 import com.example.android.common.logger.Log;
 
-import com.example.android.bluetoothchat.BluetoothChatFragment;
 import com.example.android.bluetoothchat.MainActivity;
-import com.example.android.bluetoothchat.ModeActivity;
 import com.example.android.bluetoothchat.R;
-import com.example.android.bluetoothchat.ui.login.LoginViewModel;
-import com.example.android.bluetoothchat.ui.login.LoginViewModelFactory;
 
 
 public class LoginActivity extends AppCompatActivity {

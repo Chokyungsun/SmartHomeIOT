@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
+    abi="armeabi-v7a,armeabi"
     api-level="25"
     build-mode="FULL"
     density="560dpi"
     format="10"
     plugin-version="3.4.0"
-    timestamp="1557812350551"
-    token="1530678066741562956"
+    timestamp="1558685664586"
+    token="-233934020410965867"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
@@ -18,16 +18,16 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="212" />
     <task
         name="verifier"
         duration="0" />
 
     <artifact
-        location="/Users/kimminhyung/SmartHomeIOT/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        location="/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
         type="RESOURCES" />
     <artifact
-        location="/Users/kimminhyung/SmartHomeIOT/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        location="/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/split-apk/debug/dep/dependencies.apk"
         type="SPLIT" />
 
 </instant-run>
