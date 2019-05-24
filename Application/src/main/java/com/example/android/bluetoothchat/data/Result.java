@@ -33,6 +33,11 @@ public class Result<T> {
 
         public Success(T data) {
             this.data = data;
+//            Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
+//        intent.putExtra("fragment", fragment);
+
+//            startActivity(intent);
+//        finish();
         }
 
         public T getData() {

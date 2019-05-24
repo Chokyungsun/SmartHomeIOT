@@ -14,7 +14,6 @@
 * limitations under the License.
 */
 
-
 package com.example.android.bluetoothchat;
 
 import android.content.Intent;
@@ -121,9 +120,6 @@ public class MainActivity extends SampleActivityBase {
 
     public void startApp(View view){
         Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-//        intent.putExtra("fragment", fragment);
-
         startActivity(intent);
-//        finish();
     }
 }
