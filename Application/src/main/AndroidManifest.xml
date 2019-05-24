@@ -15,7 +15,6 @@
         android:icon="@drawable/logo"
         android:label="IoT"
         android:theme="@style/AppTheme">
-        <activity android:name=".MapActivity"></activity>
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login"
@@ -47,6 +46,22 @@
         <activity
             android:name=".ModeActivity"
             android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".MapActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".KitchenActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".LivingActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".RoomActivity"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".BathActivity"
+            android:theme="@style/Theme.AppCompat" />
+
     </application>
 
 </manifest>

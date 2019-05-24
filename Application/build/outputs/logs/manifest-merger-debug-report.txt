@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-67:12
 MERGED from [com.android.support:design:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/67fb435881b1933d713e6479d3f6b9f9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/4ea0f888c96fd31aa414a37b8a036432/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:gridlayout-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/f78c0ee119e4dc93877de256725ad5a9/AndroidManifest.xml:17:1-22:12
@@ -24,8 +24,8 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/heojoon/.gradle/cache
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/1b94aa8ceb7114a756268634b8d81b9e/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/5e3d7aa830eee5629b1a1104348284cb/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/86e4976dcad9d4ef3b784d0ac59fdb94/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-67:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-67:12
 	package
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:3:5-48
 	android:versionName
@@ -59,7 +59,7 @@ ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManif
 	android:name
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:11:22-69
 application
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:13:5-50:19
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:13:5-65:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/a4696ce149a1ae10b2ce60614ba408c1/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/a4696ce149a1ae10b2ce60614ba408c1/AndroidManifest.xml:9:5-20
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/5a076cea6bd377e69f989f4fd5b258e7/AndroidManifest.xml:22:5-28:19
@@ -72,58 +72,84 @@ MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/cac
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:14:9-35
 	android:theme
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:17:9-40
-activity#com.example.android.bluetoothchat.MapActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:18:9-58
-	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:18:19-46
 activity#com.example.android.bluetoothchat.ui.login.LoginActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:19:9-22:54
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:18:9-21:54
 	android:label
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:21:13-57
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:20:13-57
 	android:theme
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:22:13-51
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:21:13-51
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:20:13-51
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:19:13-51
 activity#com.example.android.bluetoothchat.IntroActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:23:9-31:20
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:22:9-30:20
 	android:theme
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:25:13-46
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:24:13-46
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:24:13-42
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:23:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:26:13-30:29
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:27:17-69
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:27:25-66
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:29:17-77
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:29:27-74
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:28:27-74
 activity#com.example.android.bluetoothchat.MainActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:32:9-41:20
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:31:9-40:20
 	android:label
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:35:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:34:13-41
 	android:configChanges
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:34:13-63
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:33:13-63
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:33:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:32:13-41
 activity#com.example.android.bluetoothchat.DeviceListActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:42:9-46:64
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:41:9-45:64
 	android:label
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:45:13-50
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:44:13-50
 	android:configChanges
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:44:13-63
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:43:13-63
 	android:theme
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:46:13-61
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:45:13-61
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:43:13-47
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:42:13-47
 activity#com.example.android.bluetoothchat.ModeActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:47:9-49:54
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:46:9-48:54
 	android:theme
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:49:13-51
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:48:13-51
 	android:name
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:48:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:47:13-41
+activity#com.example.android.bluetoothchat.MapActivity
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:49:9-51:54
+	android:theme
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:51:13-51
+	android:name
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:50:13-40
+activity#com.example.android.bluetoothchat.KitchenActivity
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:52:9-54:54
+	android:theme
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:54:13-51
+	android:name
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:53:13-44
+activity#com.example.android.bluetoothchat.LivingActivity
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:55:9-57:54
+	android:theme
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:57:13-51
+	android:name
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:56:13-43
+activity#com.example.android.bluetoothchat.RoomActivity
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:58:9-60:54
+	android:theme
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:60:13-51
+	android:name
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:59:13-41
+activity#com.example.android.bluetoothchat.BathActivity
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:61:9-63:54
+	android:theme
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:63:13-51
+	android:name
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:62:13-41
 uses-sdk
 INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
