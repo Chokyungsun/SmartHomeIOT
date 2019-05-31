@@ -138,9 +138,30 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void onClick1(View v){
-        MainActivity.fragment.sendMessage("q");
+        MainActivity.fragment.sendMessage("u");
 //        Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
 //        startActivity(intent);
+    }
+
+    public void onClick2(View w){
+        MainActivity.fragment.sendMessage("o");
+    }
+    public void onClick3(View w){
+        MainActivity.fragment.sendMessage("f");
+    }
+
+    public void onClick4(View w){
+        MainActivity.fragment.sendMessage("a");
+    }
+    public void onClick5(View w){
+        MainActivity.fragment.sendMessage("b");
+    }
+    public void onClick6(View w){
+        MainActivity.fragment.sendMessage("m");
+    }
+
+    public void onClick7(View w){
+        MainActivity.fragment.sendMessage("n");
     }
 
     public static void alert(){
