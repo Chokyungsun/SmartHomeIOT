@@ -2,6 +2,7 @@ package com.example.android.bluetoothchat;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,11 +14,17 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MapActivity extends AppCompatActivity {
+public class MapActivity extends AppCompatActivity implements View.OnClickListener{
+
+    private Animation fab_open, fab_close;
+    private Boolean isFabOpen = false;
+    private FloatingActionButton fab, fab1, fab2;
 
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
@@ -27,6 +34,17 @@ public class MapActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+
+        fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab);
+        fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
+
+        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab1 = (FloatingActionButton) findViewById(R.id.fab_inside);
+        fab2 = (FloatingActionButton) findViewById(R.id.fab_outside);
+
+        fab.setOnClickListener(this);
+        fab1.setOnClickListener(this);
+        fab2.setOnClickListener(this);
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -68,6 +86,41 @@ public class MapActivity extends AppCompatActivity {
         });
         Log.e("Frag", "Fragment");
     }
+    public void onClick(View v) {
+        int id = v.getId();
+        switch (id) {
+            case R.id.fab:
+                anim();
+                Toast.makeText(this, "Floating Action Button", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.fab_inside:
+                anim();
+                Toast.makeText(this, "Button1", Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.fab_outside:
+                anim();
+                Toast.makeText(this, "Button2", Toast.LENGTH_SHORT).show();
+                break;
+        }
+    }
+
+        public void anim() {
+
+            if (isFabOpen) {
+                fab1.startAnimation(fab_close);
+                fab2.startAnimation(fab_close);
+                fab1.setClickable(false);
+                fab2.setClickable(false);
+                isFabOpen = false;
+            } else {
+                fab1.startAnimation(fab_open);
+                fab2.startAnimation(fab_open);
+                fab1.setClickable(true);
+                fab2.setClickable(true);
+                isFabOpen = true;
+            }
+        }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -124,5 +177,9 @@ public class MapActivity extends AppCompatActivity {
         AlertDialog ad = alertDialogBuilder.create();
         ad.show();
     }
+
+
+
+
 
 }

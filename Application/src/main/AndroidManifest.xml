@@ -19,7 +19,7 @@
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.AppCompat" /> <!-- 시작 액티비티 설정 부분 -->
+            android:theme="@style/BaseTheme" /> <!-- 시작 액티비티 설정 부분 -->
         <activity
             android:name=".IntroActivity"
             android:theme="@style/IntroTheme">
@@ -32,7 +32,8 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:label="SmartHomeIoT">
+            android:label="SmartHomeIoT"
+            android:theme= "@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -46,22 +47,23 @@
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity
             android:name=".ModeActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name=".MapActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".KitchenActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name=".LivingActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name=".RoomActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name=".BathActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
+
     </application>
 
 </manifest>
