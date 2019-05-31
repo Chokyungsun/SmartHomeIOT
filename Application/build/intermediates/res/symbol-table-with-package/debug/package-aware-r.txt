@@ -810,6 +810,10 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background_intro
+drawable button_click
+drawable con_click
+drawable con_off
+drawable con_on
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -818,6 +822,9 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable ic_action_device_access_bluetooth_searching
 drawable ic_launcher
+drawable light_click
+drawable light_off
+drawable light_on
 drawable logo
 drawable map
 drawable mon1
@@ -838,6 +845,9 @@ drawable pic
 drawable tile
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable valve_click
+drawable valve_off
+drawable valve_on
 id ALT
 id CTRL
 id FUNCTION
@@ -877,6 +887,9 @@ id bath
 id beginning
 id blocking
 id bottom
+id bt_con
+id bt_light
+id bt_valve
 id button
 id button2
 id button3
@@ -949,6 +962,7 @@ id line1
 id line3
 id listMode
 id list_item
+id liv_win
 id living
 id loading
 id log_fragment
@@ -1059,7 +1073,6 @@ id username
 id vertical
 id view_offset_helper
 id visible
-id window
 id withText
 id wrap
 id wrap_content
@@ -1108,6 +1121,7 @@ layout activity_main
 layout activity_map
 layout activity_mode
 layout activity_room
+layout activity_timer
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
