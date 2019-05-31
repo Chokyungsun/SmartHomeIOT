@@ -49,10 +49,10 @@
             android:theme="@style/Theme.AppCompat" />
         <activity
             android:name=".MapActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".KitchenActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".LivingActivity"
             android:theme="@style/Theme.AppCompat" />
