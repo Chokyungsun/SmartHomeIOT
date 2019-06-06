@@ -120,38 +120,37 @@ public class LivingActivity extends AppCompatActivity {
                 // 각 메뉴 클릭시 이뤄지는 이벤트
                 switch (id){
                     case R.id.mode_bar:
-                        Toast.makeText(LivingActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.map_bar:
-                        Toast.makeText(LivingActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), MapActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.living_bar:
-                        Toast.makeText(LivingActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), LivingActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.kitchen_bar:
-                        Toast.makeText(LivingActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), KitchenActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.bath_bar:
-                        Toast.makeText(LivingActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), BathActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.room_bar:
-                        Toast.makeText(LivingActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.timer_bar:
+                        intent = new Intent(getApplicationContext(), TimerActivity.class);
                         startActivity(intent);
                         break;
                 }
@@ -160,6 +159,13 @@ public class LivingActivity extends AppCompatActivity {
             }
         });
         Log.e("Frag", "Fragment");
+    }
+
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+        startActivity(intent);
     }
 
     @Override
@@ -174,12 +180,4 @@ public class LivingActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
 
     }
-
-    @Override
-    public void onBackPressed() {
-        Toast.makeText(this, "Back button pressed.", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
-        startActivity(intent);
-    }
-
 }

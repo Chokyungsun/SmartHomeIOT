@@ -16,6 +16,7 @@
         android:icon="@drawable/logo"
         android:label = "@string/label"
         android:theme="@style/AppTheme">
+
         <activity android:name=".TimerActivity"></activity>
         <activity
             android:name=".ui.login.LoginActivity"
