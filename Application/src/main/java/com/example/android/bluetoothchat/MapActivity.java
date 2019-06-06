@@ -138,28 +138,28 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         }
     }
 
-        public void anim() {
+    public void anim() {
 
-            if (isFabOpen) {
-                fab1.startAnimation(fab_close);
-                fab2.startAnimation(fab_close);
-                fab1.setClickable(false);
-                fab2.setClickable(false);
-                isFabOpen = false;
-            } else {
-                fab1.startAnimation(fab_open);
-                fab2.startAnimation(fab_open);
-                fab1.setClickable(true);
-                fab2.setClickable(true);
-                isFabOpen = true;
-            }
+        if (isFabOpen) {
+            fab1.startAnimation(fab_close);
+            fab2.startAnimation(fab_close);
+            fab1.setClickable(false);
+            fab2.setClickable(false);
+            isFabOpen = false;
+        } else {
+            fab1.startAnimation(fab_open);
+            fab2.startAnimation(fab_open);
+            fab1.setClickable(true);
+            fab2.setClickable(true);
+            isFabOpen = true;
         }
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id){
+        switch (id) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -177,7 +177,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         startActivity(intent);
     }
 
-    public void onClick3(View v){
+    public void onClick3(View v) {
         Intent intent = new Intent(getApplicationContext(), RoomActivity.class);
         startActivity(intent);
     }
@@ -211,9 +211,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         AlertDialog ad = alertDialogBuilder.create();
         ad.show();
     }
-
-
-
 
 
 }

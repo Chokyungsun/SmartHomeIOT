@@ -65,7 +65,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Ch
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:22:5-28:19
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:17:9-40
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:17:9-30
 	android:icon
 		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:16:9-38
 	android:allowBackup
