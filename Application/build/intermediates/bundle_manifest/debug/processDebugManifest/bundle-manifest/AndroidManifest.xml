@@ -18,8 +18,7 @@
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/logo"
-        android:label="@string/label"
-        android:testOnly="true"
+        android:label="IoT"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.android.bluetoothchat.TimerActivity" />
         <activity
@@ -56,10 +55,10 @@
             android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.MapActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.KitchenActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.LivingActivity"
             android:theme="@style/BaseTheme" />

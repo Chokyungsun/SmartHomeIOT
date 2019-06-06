@@ -1,34 +1,17 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/values-sw600dp/template-dimens.xml",
-                    "from": {
-                        "startLines": "20,21",
-                        "startColumns": "4,4",
-                        "startOffsets": "656,724",
-                        "endColumns": "67,67",
-                        "endOffsets": "719,787"
-                    },
-                    "to": {
-                        "startLines": "18,19",
-                        "startColumns": "4,4",
-                        "startOffsets": "1170,1238",
-                        "endColumns": "67,67",
-                        "endOffsets": "1233,1301"
-                    }
-                },
-                {
-                    "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/values-sw600dp/template-styles.xml",
+                    "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\values-sw600dp\\template-styles.xml",
                     "from": {
                         "startLines": "18",
                         "startColumns": "4",
-                        "startOffsets": "621",
+                        "startOffsets": "639",
                         "endLines": "22",
                         "endColumns": "12",
-                        "endOffsets": "861"
+                        "endOffsets": "883"
                     },
                     "to": {
                         "startLines": "25",
@@ -40,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\25819f0a50acb9902e088b8fb82d0561\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -59,13 +42,30 @@
                     }
                 },
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\ab3af81fbb044a32a16753d935332813\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
                         "startOffsets": "55,124,193,263,337,413,472,543",
                         "endColumns": "68,68,69,73,75,58,70,67",
                         "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\values-sw600dp\\template-dimens.xml",
+                    "from": {
+                        "startLines": "20,21",
+                        "startColumns": "4,4",
+                        "startOffsets": "676,745",
+                        "endColumns": "67,67",
+                        "endOffsets": "739,808"
+                    },
+                    "to": {
+                        "startLines": "18,19",
+                        "startColumns": "4,4",
+                        "startOffsets": "1170,1238",
+                        "endColumns": "67,67",
+                        "endOffsets": "1233,1301"
                     }
                 }
             ]
