@@ -21,7 +21,6 @@
         android:icon="@drawable/logo"
         android:label="IoT"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.android.bluetoothchat.TimerActivity" />
         <activity
             android:name="com.example.android.bluetoothchat.ui.login.LoginActivity"
             android:label="@string/title_activity_login"
@@ -68,6 +67,9 @@
             android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.BathActivity"
+            android:theme="@style/BaseTheme" />
+        <activity
+            android:name="com.example.android.bluetoothchat.TimerActivity"
             android:theme="@style/BaseTheme" />
 
         <provider
