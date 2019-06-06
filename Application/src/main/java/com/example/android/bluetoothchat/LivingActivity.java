@@ -18,11 +18,13 @@ public class LivingActivity extends AppCompatActivity {
     ImageButton bt_light;
     ImageButton bt_valve;
     ImageButton bt_con;
-//    int light_check;
-//    int valve_check;
-//    int con_check;
 
-//    int [] arr;
+    //배열
+    // cur_status
+    // kitchen - 0~2 light/con/valve
+    // room - 3~5 light/con/window
+    // bath - 6,7 light/con
+    // living - 8~10 light/con/window
 
     //action bar
     private Toolbar toolbar;
@@ -34,31 +36,35 @@ public class LivingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_living);
 
-//        Intent intent = getIntent();
-//        arr = intent.getExtras().getIntArray("arr");
-//        light_check = arr[0];
-//        valve_check = arr[1];
-//        con_check = arr[2];
 
         bt_light = (ImageButton)findViewById(R.id.bt_light);
         bt_valve = (ImageButton)findViewById(R.id.bt_valve);
         bt_con = (ImageButton)findViewById(R.id.bt_con);
-        if(MapActivity.con_check == 1) {
+
+        if(MapActivity.cur_status[8] == 1) {
+            bt_light.setSelected(true);
+            bt_light.setPressed(true);
+        }
+        if(MapActivity.cur_status[9] == 1) {
             bt_con.setSelected(true);
             bt_con.setPressed(true);
+        }
+        if(MapActivity.cur_status[10] == 1) {
+            bt_valve.setSelected(true);
+            bt_valve.setPressed(true);
         }
 
         bt_light.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(MapActivity.light_check == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[8] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
                     bt_light.setSelected(true);
-                    MapActivity.light_check = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MapActivity.cur_status[8] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
                     bt_light.setSelected(false);
-                    MapActivity.light_check = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MapActivity.cur_status[8] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }
         });
@@ -66,14 +72,14 @@ public class LivingActivity extends AppCompatActivity {
         bt_valve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(MapActivity.valve_check == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[10] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
                     bt_valve.setSelected(true);
-                    MapActivity.valve_check = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MapActivity.cur_status[10] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
                     bt_valve.setSelected(false);
-                    MapActivity.valve_check = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MapActivity.cur_status[10] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }
         });
@@ -81,14 +87,14 @@ public class LivingActivity extends AppCompatActivity {
         bt_con.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(MapActivity.con_check == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[9] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
                     bt_con.setSelected(true);
-                    MapActivity.con_check = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MapActivity.cur_status[9] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
                     bt_con.setSelected(false);
-                    MapActivity.con_check = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MapActivity.cur_status[9] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }
         });
@@ -173,7 +179,6 @@ public class LivingActivity extends AppCompatActivity {
     public void onBackPressed() {
         Toast.makeText(this, "Back button pressed.", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(getApplicationContext(), MapActivity.class);
-//        intent.putExtra("arr",arr);
         startActivity(intent);
     }
 
