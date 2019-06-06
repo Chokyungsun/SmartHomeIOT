@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "/Users/kimminhyung/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/values-v24/values-v24.xml",
+                    "source": "/Users/kimminhyung/.gradle/caches/transforms-2/files-2.1/8f1b47e4c8fd75e32ea7f6203e2073f4/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/b99631b4e01700d0fc7c040cd65031aa/res/values-v24/values-v24.xml",
+                    "source": "/Users/kimminhyung/.gradle/caches/transforms-2/files-2.1/230e4c962d5436016630f7fbe25731aa/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
