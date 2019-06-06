@@ -16,7 +16,7 @@
         android:icon="@drawable/logo"
         android:label = "IoT"
         android:theme="@style/AppTheme">
-        <activity android:name=".TimerActivity"></activity>
+
         <activity
             android:name=".ui.login.LoginActivity"
             android:label="@string/title_activity_login"
@@ -63,6 +63,9 @@
             android:theme="@style/BaseTheme" />
         <activity
             android:name=".BathActivity"
+            android:theme="@style/BaseTheme" />
+        <activity
+            android:name=".TimerActivity"
             android:theme="@style/BaseTheme" />
 
     </application>
