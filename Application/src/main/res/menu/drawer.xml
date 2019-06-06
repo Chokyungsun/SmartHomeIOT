@@ -3,17 +3,32 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/navigation_item_wordbook"
+            android:id="@+id/mode_bar"
             android:checked="true"
-            android:title="a" />
+            android:title="mode" />
         <item
-            android:id="@+id/navigation_item_camera"
-            android:title="b" />
+            android:id="@+id/map_bar"
+            android:title="map" />
         <item
-            android:id="@+id/navigation_item_write"
-            android:title="c" />
+            android:id="@+id/living_bar"
+            android:title="living room" />
+
         <item
-            android:id="@+id/navigation_item_settings"
-            android:title="d" />
+            android:id="@+id/kitchen_bar"
+            android:title="kitchen" />
+
+        <item
+            android:id="@+id/bath_bar"
+            android:title="bath room" />
+
+        <item
+            android:id="@+id/room_bar"
+            android:title="room" />
+
+        <item
+            android:id="@+id/timer_bar"
+            android:title="timer" />
     </group>
 </menu>
+
+

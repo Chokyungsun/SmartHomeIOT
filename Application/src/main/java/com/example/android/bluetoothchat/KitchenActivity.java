@@ -1,6 +1,6 @@
 package com.example.android.bluetoothchat;
 
-import android.content.Context;
+import android.content.Intent;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -8,7 +8,6 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -95,24 +94,43 @@ public class KitchenActivity extends AppCompatActivity {
 
                 int id = item.getItemId();
                 // 각 메뉴 클릭시 이뤄지는 이벤트
-                switch (id) {
-                    case R.id.navigation_item_wordbook:
+                switch (id){
+                    case R.id.mode_bar:
                         Toast.makeText(KitchenActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
+                        startActivity(intent);
                         break;
 
-                    case R.id.navigation_item_camera:
+                    case R.id.map_bar:
                         Toast.makeText(KitchenActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), MapActivity.class);
+                        startActivity(intent);
                         break;
 
-                    case R.id.navigation_item_write:
+                    case R.id.living_bar:
                         Toast.makeText(KitchenActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), LivingActivity.class);
+                        startActivity(intent);
                         break;
 
-                    case R.id.navigation_item_settings:
+                    case R.id.kitchen_bar:
                         Toast.makeText(KitchenActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), KitchenActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.bath_bar:
+                        Toast.makeText(KitchenActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), BathActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.room_bar:
+                        Toast.makeText(KitchenActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), RoomActivity.class);
+                        startActivity(intent);
                         break;
                 }
-
                 return true;
             }
         });

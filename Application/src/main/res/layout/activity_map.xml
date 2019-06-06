@@ -57,7 +57,7 @@
         android:background="#00ff0000"
         android:onClick="onClick2"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintEnd_toStartOf="@+id/kitchen"
+        app:layout_constraintEnd_toStartOf="@+id/kitchen_bar"
         app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/imageView"
@@ -83,11 +83,11 @@
         android:onClick="onClick1"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/kitchen"
+        app:layout_constraintTop_toBottomOf="@+id/kitchen_bar"
         app:layout_constraintVertical_bias="0.708" />
 
     <Button
-        android:id="@+id/kitchen"
+        android:id="@+id/kitchen_bar"
         android:layout_width="102dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/imageView"
