@@ -16,6 +16,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
@@ -118,47 +120,45 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         });
         Log.e("Frag", "Fragment");
     }
-
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
             case R.id.fab:
                 anim();
-                Toast.makeText(this, "Floating Action Button", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.fab_inside:
                 anim();
-                Toast.makeText(this, "Button1", Toast.LENGTH_SHORT).show();
+                setTitle("실내모드");
                 break;
             case R.id.fab_outside:
                 anim();
-                Toast.makeText(this, "Button2", Toast.LENGTH_SHORT).show();
+                setTitle("실외모드");
                 break;
         }
     }
 
-    public void anim() {
+        public void anim() {
 
-        if (isFabOpen) {
-            fab1.startAnimation(fab_close);
-            fab2.startAnimation(fab_close);
-            fab1.setClickable(false);
-            fab2.setClickable(false);
-            isFabOpen = false;
-        } else {
-            fab1.startAnimation(fab_open);
-            fab2.startAnimation(fab_open);
-            fab1.setClickable(true);
-            fab2.setClickable(true);
-            isFabOpen = true;
+            if (isFabOpen) {
+                fab1.startAnimation(fab_close);
+                fab2.startAnimation(fab_close);
+                fab1.setClickable(false);
+                fab2.setClickable(false);
+                isFabOpen = false;
+            } else {
+                fab1.startAnimation(fab_open);
+                fab2.startAnimation(fab_open);
+                fab1.setClickable(true);
+                fab2.setClickable(true);
+                isFabOpen = true;
+            }
         }
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id) {
+        switch (id){
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -168,7 +168,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
 
     public void onClick1(View v) {
         Intent intent = new Intent(getApplicationContext(), LivingActivity.class);
-        //intent.putExtra("arr", arr);
         startActivity(intent);
     }
 
@@ -211,6 +210,9 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         AlertDialog ad = alertDialogBuilder.create();
         ad.show();
     }
+
+
+
 
 
 }
