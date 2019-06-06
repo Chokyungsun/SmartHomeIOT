@@ -137,31 +137,49 @@ public class LoginActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
     }
 
-    public void onClick1(View v){
+    public void Ultra(View v){
         MainActivity.fragment.sendMessage("u");
 //        Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
 //        startActivity(intent);
     }
 
-    public void onClick2(View w){
-        MainActivity.fragment.sendMessage("o");
-    }
-    public void onClick3(View w){
-        MainActivity.fragment.sendMessage("f");
-    }
-
-    public void onClick4(View w){
+    public void LED1ON(View w){
         MainActivity.fragment.sendMessage("a");
     }
-    public void onClick5(View w){
+    public void LED1OFF(View w){
         MainActivity.fragment.sendMessage("b");
     }
-    public void onClick6(View w){
-        MainActivity.fragment.sendMessage("m");
-    }
+    public void LED2ON(View w) { MainActivity.fragment.sendMessage("c"); }
+    public void LED2OFF(View w) { MainActivity.fragment.sendMessage("d"); }
+    public void LED3ON(View w) { MainActivity.fragment.sendMessage("e"); }
+    public void LED3OFF(View w) { MainActivity.fragment.sendMessage("f"); }
+    public void LED4ON(View w) { MainActivity.fragment.sendMessage("g"); }
+    public void LED4OFF(View w) { MainActivity.fragment.sendMessage("h"); }
 
-    public void onClick7(View w){
-        MainActivity.fragment.sendMessage("n");
+    public void LED5ON(View w){
+        MainActivity.fragment.sendMessage("i");
+    }
+    public void LED5OFF(View w){
+        MainActivity.fragment.sendMessage("j");
+    }
+    public void LED6ON(View w) { MainActivity.fragment.sendMessage("k"); }
+    public void LED6OFF(View w) { MainActivity.fragment.sendMessage("l"); }
+    public void LED7ON(View w) { MainActivity.fragment.sendMessage("m"); }
+    public void LED7OFF(View w) { MainActivity.fragment.sendMessage("n"); }
+    public void LED8ON(View w) { MainActivity.fragment.sendMessage("o"); }
+    public void LED8OFF(View w) { MainActivity.fragment.sendMessage("p"); }
+
+    public void Motor1_180(View w){
+        MainActivity.fragment.sendMessage("q");
+    }
+    public void Motor1_0(View w){
+        MainActivity.fragment.sendMessage("r");
+    }
+    public void Motor2_180(View w){
+        MainActivity.fragment.sendMessage("s");
+    }
+    public void Motor2_0(View w){
+        MainActivity.fragment.sendMessage("t");
     }
 
     public static void alert(){

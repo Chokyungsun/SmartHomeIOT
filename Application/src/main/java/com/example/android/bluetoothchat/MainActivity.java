@@ -67,11 +67,6 @@ public class MainActivity extends SampleActivityBase {
         return true;
     }
 
-    public void onClick1(View v){
-//        BluetoothChatFragment fragment = new BluetoothChatFragment();
-        fragment.sendMessage("123");
-    }
-//
 //    @Override
 //    public boolean onPrepareOptionsMenu(Menu menu) {
 //        MenuItem logToggle = menu.findItem(R.id.menu_toggle_log);
