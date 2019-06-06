@@ -828,6 +828,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edge_line
 drawable ic_action_device_access_bluetooth_searching
 drawable ic_launcher
 drawable ic_menu
@@ -906,6 +907,7 @@ id button10
 id button11
 id button2
 id button3
+id button4
 id button5
 id button6
 id button7
@@ -978,6 +980,7 @@ id item_touch_helper_previous_elevation
 id kitchen
 id largeLabel
 id left
+id light_timer
 id line1
 id line3
 id listMode
@@ -1074,10 +1077,14 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView3
+id textView4
+id textView5
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id time
+id timepicker
 id title
 id titleDividerNoCustom
 id title_new_devices

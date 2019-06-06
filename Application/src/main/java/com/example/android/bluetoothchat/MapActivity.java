@@ -19,7 +19,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Toast;
 
-public class MapActivity extends AppCompatActivity implements View.OnClickListener{
+public class MapActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Animation fab_open, fab_close;
     private Boolean isFabOpen = false;
@@ -63,7 +63,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
 
                 int id = item.getItemId();
                 // 각 메뉴 클릭시 이뤄지는 이벤트
-                switch (id){
+                switch (id) {
                     case R.id.navigation_item_wordbook:
                         Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         break;
@@ -86,6 +86,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         });
         Log.e("Frag", "Fragment");
     }
+
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
@@ -103,28 +104,28 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         }
     }
 
-        public void anim() {
+    public void anim() {
 
-            if (isFabOpen) {
-                fab1.startAnimation(fab_close);
-                fab2.startAnimation(fab_close);
-                fab1.setClickable(false);
-                fab2.setClickable(false);
-                isFabOpen = false;
-            } else {
-                fab1.startAnimation(fab_open);
-                fab2.startAnimation(fab_open);
-                fab1.setClickable(true);
-                fab2.setClickable(true);
-                isFabOpen = true;
-            }
+        if (isFabOpen) {
+            fab1.startAnimation(fab_close);
+            fab2.startAnimation(fab_close);
+            fab1.setClickable(false);
+            fab2.setClickable(false);
+            isFabOpen = false;
+        } else {
+            fab1.startAnimation(fab_open);
+            fab2.startAnimation(fab_open);
+            fab1.setClickable(true);
+            fab2.setClickable(true);
+            isFabOpen = true;
         }
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id){
+        switch (id) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -132,29 +133,29 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClick1(View v){
+    public void onClick1(View v) {
         Intent intent = new Intent(getApplicationContext(), LivingActivity.class);
         startActivity(intent);
     }
 
-    public void onClick2(View v){
+    public void onClick2(View v) {
         Intent intent = new Intent(getApplicationContext(), BathActivity.class);
         startActivity(intent);
     }
 
-    public void onClick3(View v){
+    public void onClick3(View v) {
         Intent intent = new Intent(getApplicationContext(), RoomActivity.class);
         startActivity(intent);
     }
 
-    public void onClick4(View v){
+    public void onClick4(View v) {
         Intent intent = new Intent(getApplicationContext(), KitchenActivity.class);
         startActivity(intent);
     }
 
-    public void open(View v){
+    public void open(View v) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder((this));
-        alertDialogBuilder.setMessage("움직임이 감지되었습니다."+'\n'+"신고하시겠습니까?");
+        alertDialogBuilder.setMessage("움직임이 감지되었습니다." + '\n' + "신고하시겠습니까?");
         alertDialogBuilder.setPositiveButton("네",
                 new DialogInterface.OnClickListener() {
                     @Override
