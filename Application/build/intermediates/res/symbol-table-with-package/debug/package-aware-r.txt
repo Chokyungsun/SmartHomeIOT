@@ -1234,6 +1234,7 @@ string insecure_connect
 string intro_message
 string invalid_password
 string invalid_username
+string label
 string login_failed
 string none_found
 string none_paired

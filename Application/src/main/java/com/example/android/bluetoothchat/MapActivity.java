@@ -1,5 +1,6 @@
 package com.example.android.bluetoothchat;
 
+import android.app.Application;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -16,8 +17,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MapActivity extends AppCompatActivity implements View.OnClickListener{
@@ -34,6 +33,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+
 
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab);
         fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
@@ -91,15 +91,14 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         switch (id) {
             case R.id.fab:
                 anim();
-                Toast.makeText(this, "Floating Action Button", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.fab_inside:
                 anim();
-                Toast.makeText(this, "Button1", Toast.LENGTH_SHORT).show();
+                setTitle("실내모드");
                 break;
             case R.id.fab_outside:
                 anim();
-                Toast.makeText(this, "Button2", Toast.LENGTH_SHORT).show();
+                setTitle("실외모드");
                 break;
         }
     }
@@ -177,9 +176,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         AlertDialog ad = alertDialogBuilder.create();
         ad.show();
     }
-
-
-
 
 
 }
