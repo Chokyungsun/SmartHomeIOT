@@ -17,6 +17,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -38,11 +39,22 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     // bath - 6,7 light/con
     // living - 8~10 light/con/window
 
+    //mode
+    static int mode;
+
+    // image view
+    ImageView imgv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+
+        imgv =  (ImageView) findViewById(R.id.mode_img);
+        if(MapActivity.mode == 0)
+            imgv.setImageResource(R.drawable.in_mode);
+        else  if(MapActivity.mode == 1)
+            imgv.setImageResource(R.drawable.out_mode);
 
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab);
         fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
@@ -129,11 +141,15 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 break;
             case R.id.fab_inside:
                 anim();
-                setTitle("실내모드");
+                imgv.setImageResource(R.drawable.in_mode);
+                mode = 0;
+//                setTitle("실내모드");
                 break;
             case R.id.fab_outside:
                 anim();
-                setTitle("실외모드");
+                mode = 1;
+                imgv.setImageResource(R.drawable.out_mode);
+//                setTitle("실외모드");
                 break;
         }
     }

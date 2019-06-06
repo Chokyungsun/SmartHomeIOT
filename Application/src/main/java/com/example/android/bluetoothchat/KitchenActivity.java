@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class KitchenActivity extends AppCompatActivity {
@@ -22,6 +23,8 @@ public class KitchenActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
+
+    ImageView imgv;
 
     //배열
     // cur_status
@@ -34,6 +37,13 @@ public class KitchenActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kitchen);
+
+        imgv = (ImageView) findViewById(R.id.mode_img);
+        if(MapActivity.mode == 0)
+            imgv.setImageResource(R.drawable.in_mode);
+        else  if(MapActivity.mode == 1)
+            imgv.setImageResource(R.drawable.out_mode);
+
         bt_light = (ImageButton) findViewById(R.id.bt_light);
         bt_valve = (ImageButton) findViewById(R.id.bt_valve);
         bt_con = (ImageButton) findViewById(R.id.bt_con);
