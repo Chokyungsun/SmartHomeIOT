@@ -1,8 +1,8 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-70:12
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-73:12
 MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\493ccf9ff62922933f00320254faa1d3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\f636cc53ce438628ea2eaeceff4817c6\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\25819f0a50acb9902e088b8fb82d0561\AndroidManifest.xml:17:1-22:12
@@ -24,8 +24,8 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Cho\.gradle\caches\
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\65a9c36394d943a78e0d9a932348c4f0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ecc363d164b2a305223415536fce89a0\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\8b642d16e117d5e8e12ce3a77b66a497\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-70:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-70:12
+INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-73:12
+INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-73:12
 	package
 		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:3:5-48
 	android:versionName
@@ -59,7 +59,7 @@ ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\m
 	android:name
 		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:11:22-69
 application
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:14:5-68:19
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:14:5-71:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:9:5-20
 MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:22:5-28:19
@@ -72,90 +72,92 @@ MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\cache
 		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:15:9-35
 	android:theme
 		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:18:9-40
-activity#com.example.android.bluetoothchat.TimerActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:19:9-60
-	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:19:19-48
 activity#com.example.android.bluetoothchat.ui.login.LoginActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:20:9-23:48
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:19:9-22:48
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:22:13-57
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:21:13-57
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:23:13-45
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:21:13-51
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:20:13-51
 activity#com.example.android.bluetoothchat.IntroActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:23:9-31:20
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:26:13-46
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:25:13-46
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:25:13-42
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:24:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:29:27-74
 activity#com.example.android.bluetoothchat.MainActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:33:9-43:20
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:32:9-42:20
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:36:13-41
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:35:13-41
 	android:configChanges
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:35:13-63
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:34:13-63
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:37:13-45
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:36:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:34:13-41
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:33:13-41
 activity#com.example.android.bluetoothchat.DeviceListActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:44:9-48:64
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:43:9-47:64
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:47:13-50
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:46:13-50
 	android:configChanges
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:46:13-63
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:45:13-63
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:48:13-61
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:47:13-61
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:45:13-47
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:44:13-47
 activity#com.example.android.bluetoothchat.ModeActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:49:9-51:48
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:48:9-50:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:51:13-45
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:50:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:50:13-41
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:49:13-41
 activity#com.example.android.bluetoothchat.MapActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:52:9-54:72
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:51:9-53:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:54:13-69
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:53:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:53:13-40
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:52:13-40
 activity#com.example.android.bluetoothchat.KitchenActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:55:9-57:72
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:54:9-56:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:57:13-69
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:56:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:56:13-44
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:55:13-44
 activity#com.example.android.bluetoothchat.LivingActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:58:9-60:48
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:57:9-59:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:60:13-45
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:59:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:59:13-43
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:58:13-43
 activity#com.example.android.bluetoothchat.RoomActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:61:9-63:48
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:60:9-62:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:63:13-45
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:62:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:62:13-41
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:61:13-41
 activity#com.example.android.bluetoothchat.BathActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:64:9-66:48
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:63:9-65:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:66:13-45
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:65:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:65:13-41
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:64:13-41
+activity#com.example.android.bluetoothchat.TimerActivity
+ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:66:9-68:48
+	android:theme
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:67:13-42
 uses-sdk
 INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml

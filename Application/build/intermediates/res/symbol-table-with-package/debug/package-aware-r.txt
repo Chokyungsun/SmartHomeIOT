@@ -828,6 +828,7 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable edge_line
 drawable ic_action_device_access_bluetooth_searching
 drawable ic_launcher
 drawable ic_menu
@@ -990,9 +991,11 @@ id insecure_connect_scan
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id kitchen
 id kitchen_bar
 id largeLabel
 id left
+id light_timer
 id line1
 id line3
 id listMode
@@ -1008,6 +1011,8 @@ id masked
 id media_actions
 id message
 id middle
+id min1
+id min2
 id mini
 id mode_bar
 id multiply
@@ -1059,6 +1064,8 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id sec1
+id sec2
 id secure_connect_scan
 id select_dialog_listview
 id shortcut
@@ -1070,6 +1077,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id spacer
+id spinner
 id split_action_bar
 id spread
 id spread_inside
@@ -1089,6 +1097,11 @@ id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
+id textView2
+id textView3
+id textView4
+id textView5
+id textView6
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1099,6 +1112,7 @@ id titleDividerNoCustom
 id title_new_devices
 id title_paired_devices
 id title_template
+id toggleButton
 id toolbar
 id top
 id topPanel
