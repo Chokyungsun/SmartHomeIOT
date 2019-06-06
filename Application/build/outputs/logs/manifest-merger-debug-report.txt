@@ -65,7 +65,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heoj
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:22:5-28:19
 	android:label
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:17:9-40
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:17:9-30
 	android:icon
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:16:9-38
 	android:allowBackup
@@ -127,15 +127,15 @@ ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManif
 	android:name
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:50:13-41
 activity#com.example.android.bluetoothchat.MapActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:52:9-54:72
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:52:9-54:48
 	android:theme
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:54:13-69
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:54:13-45
 	android:name
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:53:13-40
 activity#com.example.android.bluetoothchat.KitchenActivity
-ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:55:9-57:72
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:55:9-57:48
 	android:theme
-		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:57:13-69
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:57:13-45
 	android:name
 		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:56:13-44
 activity#com.example.android.bluetoothchat.LivingActivity
