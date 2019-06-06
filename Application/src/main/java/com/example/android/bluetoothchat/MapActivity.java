@@ -28,6 +28,9 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
 
+    static int light_check;
+    static int valve_check;
+    static int con_check;
 //    //배열
 //    int[] arr = new int[12];
 //    int liv_light = 0;
