@@ -1,5 +1,6 @@
 package com.example.android.bluetoothchat;
 
+import android.app.Application;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -176,7 +177,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         startActivity(intent);
     }
 
-    public void onClick3(View v) {
+    public void onClick3(View v){
         Intent intent = new Intent(getApplicationContext(), RoomActivity.class);
         startActivity(intent);
     }
