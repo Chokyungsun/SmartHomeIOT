@@ -12,11 +12,8 @@
         <item
             android:id="@+id/navigation_item_write"
             android:title="c" />
-
         <item
             android:id="@+id/navigation_item_settings"
             android:title="d" />
     </group>
 </menu>
-
-
