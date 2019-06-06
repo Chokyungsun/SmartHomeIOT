@@ -15,6 +15,8 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fab
+anim fab_close
 animator design_appbar_state_list_animator
 attr actionBarDivider
 attr actionBarItemBackground
@@ -818,6 +820,8 @@ drawable button_click
 drawable con_click
 drawable con_off
 drawable con_on
+drawable consent
+drawable consent_1
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -827,12 +831,13 @@ drawable design_snackbar_background
 drawable ic_action_device_access_bluetooth_searching
 drawable ic_launcher
 drawable ic_menu
+drawable insidemode
 drawable light_click
 drawable light_off
 drawable light_on
 drawable logo
 drawable map
-drawable mon1
+drawable map_pic
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -846,6 +851,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable outsidemode
 drawable pic
 drawable tile
 drawable tooltip_frame_dark
@@ -944,6 +950,9 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
+id fab_inside
+id fab_outside
 id fill
 id fill_horizontal
 id fill_vertical
