@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mode_bar"
+            android:checked="true"
+            android:title="mode" />
+        <item
+            android:id="@+id/map_bar"
+            android:title="map" />
+        <item
+            android:id="@+id/living_bar"
+            android:title="living room" />
+
+        <item
+            android:id="@+id/kitchen_bar"
+            android:title="kitchen" />
+
+        <item
+            android:id="@+id/bath_bar"
+            android:title="bath room" />
+
+        <item
+            android:id="@+id/room_bar"
+            android:title="room" />
+
+        <item
+            android:id="@+id/timer_bar"
+            android:title="timer" />
+    </group>
+</menu>
+
+

@@ -4,7 +4,17 @@
             "outputFile": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr/values-mr.xml",
             "map": [
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/826368029ce23097414caeec8dd1c214/res/values-mr/values-mr.xml",
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/values-mr/values-mr.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,1867",
+                        "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
+                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
+                    }
+                },
+                {
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/8a27a0a1f56c92fc17c3a0c6a917b9a7/res/values-mr/values-mr.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -18,16 +28,6 @@
                         "startOffsets": "1947",
                         "endColumns": "100",
                         "endOffsets": "2043"
-                    }
-                },
-                {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/c93d00fce20cfe1c64ecfa203c2a13b3/res/values-mr/values-mr.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,1867",
-                        "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
-                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
                     }
                 }
             ]

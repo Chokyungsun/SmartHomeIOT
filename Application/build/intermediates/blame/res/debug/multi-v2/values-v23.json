@@ -4,7 +4,7 @@
             "outputFile": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/c93d00fce20cfe1c64ecfa203c2a13b3/res/values-v23/values-v23.xml",
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/38db089a02e7fbf5ab645ae407aa773e/res/values-v23/values-v23.xml",
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/cbae6a99c0e291ea46a2aa494597a4cb/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

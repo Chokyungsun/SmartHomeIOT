@@ -19,13 +19,12 @@
         android:debuggable="true"
         android:icon="@drawable/logo"
         android:label="IoT"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.android.bluetoothchat.TimerActivity" />
         <activity
             android:name="com.example.android.bluetoothchat.ui.login.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/Theme.AppCompat" /> <!-- 시작 액티비티 설정 부분 -->
+            android:theme="@style/BaseTheme" /> <!-- 시작 액티비티 설정 부분 -->
         <activity
             android:name="com.example.android.bluetoothchat.IntroActivity"
             android:theme="@style/IntroTheme" >
@@ -38,7 +37,8 @@
         <activity
             android:name="com.example.android.bluetoothchat.MainActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:label="SmartHomeIoT" >
+            android:label="SmartHomeIoT"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -52,22 +52,22 @@
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity
             android:name="com.example.android.bluetoothchat.ModeActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.MapActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.android.bluetoothchat.KitchenActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.example.android.bluetoothchat.LivingActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.RoomActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.BathActivity"
-            android:theme="@style/Theme.AppCompat" />
+            android:theme="@style/BaseTheme" />
 
         <provider
             android:name="android.arch.lifecycle.ProcessLifecycleOwnerInitializer"
