@@ -31,24 +31,18 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
 
-//    //배열
-//    int[] arr = new int[12];
-//    int liv_light = 0;
-//    int liv_valve = 0;
-//    int liv_con = 0;
+    //배열
+    static int[] cur_status = new int[12];
+    // kitchen - 0~2 light/con/valve
+    // room - 3~5 light/con/window
+    // bath - 6,7 light/con
+    // living - 8~10 light/con/window
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
-
-//        Intent intent = getIntent();
-//        if(intent != null)
-//            arr = intent.getExtras().getIntArray("arr");
-//
-//        liv_light = arr[0];
-//        liv_valve = arr[1];
-//        liv_con = arr[2];
 
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab);
         fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
