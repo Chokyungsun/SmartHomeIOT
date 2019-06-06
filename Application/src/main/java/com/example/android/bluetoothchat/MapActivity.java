@@ -108,6 +108,11 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
                         startActivity(intent);
                         break;
+                    case R.id.timer_bar:
+                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), TimerActivity.class);
+                        startActivity(intent);
+                        break;
                 }
 
                 return true;
