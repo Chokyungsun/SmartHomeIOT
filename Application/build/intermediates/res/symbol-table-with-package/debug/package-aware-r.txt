@@ -895,6 +895,7 @@ id async
 id auto
 id barrier
 id bath
+id bath_bar
 id beginning
 id blocking
 id bottom
@@ -975,7 +976,7 @@ id insecure_connect_scan
 id invisible
 id italic
 id item_touch_helper_previous_elevation
-id kitchen
+id kitchen_bar
 id largeLabel
 id left
 id line1
@@ -984,20 +985,19 @@ id listMode
 id list_item
 id liv_win
 id living
+id living_bar
 id loading
 id log_fragment
 id login
+id map_bar
 id masked
 id media_actions
 id message
 id middle
 id mini
+id mode_bar
 id multiply
 id navigation_header_container
-id navigation_item_camera
-id navigation_item_settings
-id navigation_item_wordbook
-id navigation_item_write
 id navigation_view
 id never
 id new_devices
@@ -1022,6 +1022,7 @@ id right
 id right_icon
 id right_side
 id room
+id room_bar
 id sample_content_fragment
 id sample_main_layout
 id sample_output
@@ -1078,6 +1079,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id time
+id timer_bar
 id title
 id titleDividerNoCustom
 id title_new_devices

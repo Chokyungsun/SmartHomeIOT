@@ -300,6 +300,14 @@
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_insidemode.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/insidemode.png"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_map_pic.PNG.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/map_pic.PNG"
+    },
+    {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/res/drawable-hdpi-v4/design_ic_visibility_off.png"
     },
@@ -490,6 +498,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/color/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_map.jpg.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/map.jpg"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -1176,6 +1188,10 @@
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/color/abc_hint_foreground_material_light.xml"
     },
     {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_outsidemode.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/outsidemode.png"
+    },
+    {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
@@ -1298,6 +1314,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_consent_1.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/consent_1.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1642,6 +1662,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_consent.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/consent.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
