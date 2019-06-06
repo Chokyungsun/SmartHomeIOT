@@ -4,7 +4,6 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/mode_bar"
-            android:checked="true"
             android:title="mode" />
         <item
             android:id="@+id/map_bar"

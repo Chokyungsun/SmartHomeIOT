@@ -10,10 +10,11 @@
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
-        android:label="IoT"
+        android:label = "@string/label"
         android:theme="@style/AppTheme">
         <activity android:name=".TimerActivity"></activity>
         <activity
