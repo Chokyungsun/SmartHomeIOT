@@ -119,9 +119,11 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 loadingProgressBar.setVisibility(View.VISIBLE);
-                loginViewModel.login(usernameEditText.getText().toString(),
+                String id = usernameEditText.getText().toString();
+                loginViewModel.login(id,
                         passwordEditText.getText().toString());
                 Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+                intent.putExtra("id", id);
                 startActivity(intent);
             }
         });

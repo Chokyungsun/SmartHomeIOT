@@ -838,6 +838,7 @@ drawable ic_launcher
 drawable ic_menu
 drawable in_mode
 drawable insidemode
+drawable ironman
 drawable kitchen
 drawable light_click
 drawable light_off

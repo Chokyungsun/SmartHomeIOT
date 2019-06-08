@@ -76,6 +76,12 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
+        TextView idv = navigationView.getHeaderView(0).findViewById(R.id.textView2);
+        Intent i2 = getIntent();
+        String email = i2.getExtras().getString("id'");
+        idv.setText("aa");
+
+
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(MenuItem item) {
