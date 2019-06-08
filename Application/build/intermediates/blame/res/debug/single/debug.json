@@ -248,12 +248,12 @@
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/color/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_background_intro.xml.flat",
@@ -406,6 +406,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/8a27a0a1f56c92fc17c3a0c6a917b9a7/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/layout_activity_police.xml.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/layout/activity_police.xml"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat",
@@ -832,12 +836,20 @@
         "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/layout/activity_timer.xml"
     },
     {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable_security.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable/security.png"
+    },
+    {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/layout/abc_action_menu_item_layout.xml"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_ic_action_device_access_bluetooth_searching_1.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/ic_action_device_access_bluetooth_searching_1.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -854,6 +866,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-hdpi_tile.9.png.flat",
         "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-hdpi/tile.9.png"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable_thief.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable/thief.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_valve_click.xml.flat",
@@ -974,6 +990,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable_siren.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable/siren.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat",
@@ -1184,6 +1204,10 @@
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_bluetooth.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/bluetooth.png"
+    },
+    {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-v21_avd_hide_password.xml.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/res/drawable-v21/avd_hide_password.xml"
     },
@@ -1356,6 +1380,10 @@
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_device_access_bluetooth_searching_1.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-hdpi/ic_action_device_access_bluetooth_searching_1.png"
+    },
+    {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
@@ -1418,6 +1446,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_action_device_access_bluetooth_searching_1.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-xxhdpi/ic_action_device_access_bluetooth_searching_1.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
@@ -1806,6 +1838,10 @@
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-mdpi_toilet.png.flat",
         "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-mdpi/toilet.png"
+    },
+    {
+        "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-xhdpi_ic_action_device_access_bluetooth_searching_1.png.flat",
+        "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/drawable-xhdpi/ic_action_device_access_bluetooth_searching_1.png"
     },
     {
         "merged": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",

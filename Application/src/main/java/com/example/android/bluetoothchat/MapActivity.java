@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,6 +23,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+
 
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -98,44 +101,42 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 // 각 메뉴 클릭시 이뤄지는 이벤트
                 switch (id) {
                     case R.id.mode_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.map_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), MapActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.living_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), LivingActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.kitchen_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), KitchenActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.bath_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), BathActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.room_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.timer_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), TimerActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.police_bar:
+                        intent = new Intent(getApplicationContext(), PoliceActivity.class);
                         startActivity(intent);
                         break;
                 }
@@ -145,15 +146,12 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         });
         Log.e("Frag", "Fragment");
     }
-
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
-
             case R.id.fab:
                 anim();
                 break;
-
             case R.id.fab_inside:
                 anim();
                 imgv.setImageResource(R.drawable.in_mode);
@@ -163,7 +161,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 in_set(13);
                 //setting in mode
                 break;
-
             case R.id.fab_outside:
                 anim();
                 mode = 1;
@@ -178,28 +175,28 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         }
     }
 
-        public void anim() {
+    public void anim() {
 
-            if (isFabOpen) {
-                fab1.startAnimation(fab_close);
-                fab2.startAnimation(fab_close);
-                fab1.setClickable(false);
-                fab2.setClickable(false);
-                isFabOpen = false;
-            } else {
-                fab1.startAnimation(fab_open);
-                fab2.startAnimation(fab_open);
-                fab1.setClickable(true);
-                fab2.setClickable(true);
-                isFabOpen = true;
-            }
+        if (isFabOpen) {
+            fab1.startAnimation(fab_close);
+            fab2.startAnimation(fab_close);
+            fab1.setClickable(false);
+            fab2.setClickable(false);
+            isFabOpen = false;
+        } else {
+            fab1.startAnimation(fab_open);
+            fab2.startAnimation(fab_open);
+            fab1.setClickable(true);
+            fab2.setClickable(true);
+            isFabOpen = true;
         }
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id){
+        switch (id) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -225,32 +222,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     public void goKit(View v) {
         Intent intent = new Intent(getApplicationContext(), KitchenActivity.class);
         startActivity(intent);
-    }
-    //
-
-    public void open(View v) {
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder((this));
-        alertDialogBuilder.setMessage("움직임이 감지되었습니다." + '\n' + "신고하시겠습니까?");
-        alertDialogBuilder.setPositiveButton("네",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MapActivity.this, "신고 완료",
-                                Toast.LENGTH_LONG).show();
-                    }
-                });
-
-        alertDialogBuilder.setNegativeButton("아니오",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MapActivity.this, "취소",
-                                Toast.LENGTH_LONG).show();
-                    }
-
-                });
-        AlertDialog ad = alertDialogBuilder.create();
-        ad.show();
     }
 
     private void in_set(int len){

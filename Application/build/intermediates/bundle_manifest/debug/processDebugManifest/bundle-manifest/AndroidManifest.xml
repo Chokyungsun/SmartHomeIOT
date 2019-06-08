@@ -19,6 +19,7 @@
         android:debuggable="true"
         android:icon="@drawable/logo"
         android:label="IoT"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.android.bluetoothchat.ui.login.LoginActivity"
@@ -50,6 +51,9 @@
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity
+            android:name="com.example.android.bluetoothchat.ModeActivity"
+            android:theme="@style/BaseTheme" />
+        <activity
             android:name="com.example.android.bluetoothchat.MapActivity"
             android:theme="@style/BaseTheme" />
         <activity
@@ -68,7 +72,7 @@
             android:name="com.example.android.bluetoothchat.TimerActivity"
             android:theme="@style/BaseTheme" />
         <activity
-            android:name="com.example.android.bluetoothchat.ModeActivity"
+            android:name="com.example.android.bluetoothchat.PoliceActivity"
             android:theme="@style/BaseTheme" />
 
         <provider

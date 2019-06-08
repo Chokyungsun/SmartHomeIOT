@@ -111,7 +111,6 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             tools:ignore="MissingConstraints">
-
         </android.support.v7.widget.Toolbar>
 
         <TextView

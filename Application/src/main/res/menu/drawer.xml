@@ -36,6 +36,12 @@
             android:id="@+id/timer_bar"
             android:icon="@drawable/bar_clock"
             android:title="예약 모드" />
+
+        <item
+            android:id="@+id/police_bar"
+            android:icon="@drawable/siren"
+            android:title="방범 모드" />
+
     </group>
 </menu>
 
