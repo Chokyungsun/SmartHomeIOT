@@ -151,7 +151,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void LED1ON(View w){
-        MainActivity.fragment.sendMessage("a");
+        MainActivity.fragment.sendMessage("123");
     }
     public void LED1OFF(View w){
         MainActivity.fragment.sendMessage("b");

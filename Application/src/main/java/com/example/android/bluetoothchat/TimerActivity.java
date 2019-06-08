@@ -1,11 +1,13 @@
 package com.example.android.bluetoothchat;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.nfc.Tag;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -34,6 +36,8 @@ public class TimerActivity extends AppCompatActivity {
     private NumberPicker numpick_sec1;
     private NumberPicker numpick_sec2;
 
+    private int min1, min2, sec1, sec2;
+    private String specific_sensor;
     //배열
     // cur_status
     // kitchen - 0,1 light/con
@@ -161,66 +165,166 @@ public class TimerActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private class myThread extends Thread {
-        private int tt = 0;
-        private String strr = "";
-        public myThread(int t, String str) {
-            tt = t;
-            strr = "" + str;
-        }
-        public void run() {
-            try{
-                Thread.sleep(tt); // 1초
-            }catch(InterruptedException e){
-                e.printStackTrace();
-            }
-
-            if(strr.equals("주방: 조명")){
-
-            }
-            else if(strr.equals("주방: 가스밸브")){
-
-            }
-            else if(strr.equals("주방: 콘센트")){
-
-            }
-            else if(strr.equals("침실: 조명")){
-
-            }
-            else if(strr.equals("침실: 창문")){
-
-            }
-            else if(strr.equals("침실: 콘센트")){
-
-            }
-            else if(strr.equals("거실: 조명")){
-
-            }
-            else if(strr.equals("거실: 창문")){
-
-            }
-            else if(strr.equals("거실: 콘센트")){
-
-            }
-            else if(strr.equals("화장실: 조명")){
-
-            }
-            else if(strr.equals("화장실: 콘센트")){
-
-            }
-        }
-    }
+//    private class myThread extends Thread {
+//        private int tt = 0;
+//        private String specific_sensor = "";
+//        public myThread(int t, String str) {
+//            tt = t;
+//            specific_sensor = "" + str;
+//        }
+//        public void run() {
+//            try{
+//                Thread.sleep(tt); // 1초
+//            }catch(InterruptedException e){
+//                e.printStackTrace();
+//            }
+//
+//
+//        }
+//    }
 
     public void activate(View w){
-        String specific_sensor = spinner.getSelectedItem().toString();
-        int min1 = numpick_min1.getValue(); // 십의자리
-        int min2 = numpick_min2.getValue(); // 일의자리
-        int sec1 = numpick_sec1.getValue(); // 십의자리
-        int sec2 = numpick_sec2.getValue(); // 일의자리
-        Toast.makeText(this ,specific_sensor+"이(가) "+min1+min2+"분 "+sec1+sec2+"초 뒤에 제어 됩니다.", Toast.LENGTH_SHORT).show();
-        int res = 1000*(sec2+10*sec1+60*min2+600*min1);
-        myThread mythread = new myThread(res, specific_sensor);
-        mythread.start();
+        specific_sensor = spinner.getSelectedItem().toString();
+        min1 = numpick_min1.getValue(); // 십의자리
+        min2 = numpick_min2.getValue(); // 일의자리
+        sec1 = numpick_sec1.getValue(); // 십의자리
+        sec2 = numpick_sec2.getValue(); // 일의자리
+
+        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder((this));
+        alertDialogBuilder.setMessage(specific_sensor+"을(를) "+min1+min2+"분 "+sec1+sec2+"초 뒤에 제어하시겠습니까?");
+        alertDialogBuilder.setPositiveButton("네",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(TimerActivity.this ,specific_sensor+"이(가) "+min1+min2+"분 "+sec1+sec2+"초 뒤에 제어 됩니다.", Toast.LENGTH_SHORT).show();
+                        int res = sec2+10*sec1+60*min2+600*min1;
+                        if(specific_sensor.equals("주방: 조명")){
+                            if(MapActivity.cur_status[0]==1){
+                                MainActivity.fragment.sendMessage(res + ",h");
+                                MapActivity.cur_status[0]=0;
+                            }
+                            else if(MapActivity.cur_status[0]==0){
+                                MainActivity.fragment.sendMessage(res + ",g");
+                                MapActivity.cur_status[0]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("주방: 가스밸브")){
+                            if(MapActivity.cur_status[12]==1){
+                                MainActivity.fragment.sendMessage(res + ",w");
+                                MapActivity.cur_status[12]=0;
+                            }
+                            else if(MapActivity.cur_status[12]==0){
+                                MainActivity.fragment.sendMessage(res + ",v");
+                                MapActivity.cur_status[12]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("주방: 콘센트")){
+                            if(MapActivity.cur_status[1]==1){
+                                MainActivity.fragment.sendMessage(res + ",p");
+                                MapActivity.cur_status[1]=0;
+                            }
+                            else if(MapActivity.cur_status[1]==0){
+                                MainActivity.fragment.sendMessage(res + ",o");
+                                MapActivity.cur_status[1]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("침실: 조명")){
+                            if(MapActivity.cur_status[3]==1){
+                                MainActivity.fragment.sendMessage(res + ",d");
+                                MapActivity.cur_status[3]=0;
+                            }
+                            else if(MapActivity.cur_status[3]==0){
+                                MainActivity.fragment.sendMessage(res + ",c");
+                                MapActivity.cur_status[3]=1;
+                            }
+
+                        }
+                        else if(specific_sensor.equals("침실: 창문")){
+                            if(MapActivity.cur_status[11]==1){
+                                MainActivity.fragment.sendMessage(res + ",t");
+                                MapActivity.cur_status[11]=0;
+                            }
+                            else if(MapActivity.cur_status[11]==0){
+                                MainActivity.fragment.sendMessage(res + ",s");
+                                MapActivity.cur_status[11]=1;
+                            }
+
+                        }
+                        else if(specific_sensor.equals("침실: 콘센트")){
+                            if(MapActivity.cur_status[4]==1){
+                                MainActivity.fragment.sendMessage(res + ",l");
+                                MapActivity.cur_status[4]=0;
+                            }
+                            else if(MapActivity.cur_status[4]==0){
+                                MainActivity.fragment.sendMessage(res + ",k");
+                                MapActivity.cur_status[4]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("거실: 조명")){
+                            if(MapActivity.cur_status[8]==1){
+                                MainActivity.fragment.sendMessage(res + ",b");
+                                MapActivity.cur_status[8]=0;
+                            }
+                            else if(MapActivity.cur_status[8]==0){
+                                MainActivity.fragment.sendMessage(res + ",a");
+                                MapActivity.cur_status[8]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("거실: 창문")){
+                            if(MapActivity.cur_status[10]==1){
+                                MainActivity.fragment.sendMessage(res + ",r");
+                                MapActivity.cur_status[10]=0;
+                            }
+                            else if(MapActivity.cur_status[10]==0){
+                                MainActivity.fragment.sendMessage(res + ",q");
+                                MapActivity.cur_status[10]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("거실: 콘센트")){
+                            if(MapActivity.cur_status[9]==1){
+                                MainActivity.fragment.sendMessage(res + ",j");
+                                MapActivity.cur_status[9]=0;
+                            }
+                            else if(MapActivity.cur_status[9]==0){
+                                MainActivity.fragment.sendMessage(res + ",i");
+                                MapActivity.cur_status[9]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("화장실: 조명")){
+                            if(MapActivity.cur_status[6]==1){
+                                MainActivity.fragment.sendMessage(res + ",f");
+                                MapActivity.cur_status[6]=0;
+                            }
+                            else if(MapActivity.cur_status[6]==0){
+                                MainActivity.fragment.sendMessage(res + ",e");
+                                MapActivity.cur_status[6]=1;
+                            }
+                        }
+                        else if(specific_sensor.equals("화장실: 콘센트")){
+                            if(MapActivity.cur_status[7]==1){
+                                MainActivity.fragment.sendMessage(res + ",n");
+                                MapActivity.cur_status[7]=0;
+                            }
+                            else if(MapActivity.cur_status[7]==0){
+                                MainActivity.fragment.sendMessage(res + ",m");
+                                MapActivity.cur_status[7]=1;
+                            }
+                        }
+
+                    }
+                });
+
+        alertDialogBuilder.setNegativeButton("아니오",
+                new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Toast.makeText(TimerActivity.this, "취소",
+                                Toast.LENGTH_LONG).show();
+                    }
+
+                });
+        AlertDialog ad = alertDialogBuilder.create();
+        ad.show();
     }
 
 }
