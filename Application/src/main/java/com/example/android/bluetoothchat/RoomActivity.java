@@ -28,12 +28,12 @@ public class RoomActivity extends AppCompatActivity {
 
     ImageView imgv;
 
-    //배열
-    // cur_status
-    // kitchen - 0~2 light/con/valve
-    // room - 3~5 light/con/window
+    // kitchen - 0,1 light/con
+    // room - 3,4 light/con
     // bath - 6,7 light/con
     // living - 8~10 light/con/window
+    // room - 11 window
+    // kitchen - 12 valve
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +59,7 @@ public class RoomActivity extends AppCompatActivity {
             bt_con.setSelected(true);
             bt_con.setPressed(true);
         }
-        if(MapActivity.cur_status[5] == 1) {
+        if(MapActivity.cur_status[11] == 1) {
             bt_window.setSelected(true);
             bt_window.setPressed(true);
         }
@@ -67,14 +67,16 @@ public class RoomActivity extends AppCompatActivity {
         bt_light.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(MapActivity.cur_status[3] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[3] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 on
                     bt_light.setSelected(true);
-                    MapActivity.cur_status[3] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MainActivity.fragment.sendMessage("c");
+                    MapActivity.cur_status[3] = 1;
                 }
-                else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
+                else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 off
                 {
                     bt_light.setSelected(false);
-                    MapActivity.cur_status[3] = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MainActivity.fragment.sendMessage("d");
+                    MapActivity.cur_status[3] = 0;
                 }
             }
         });
@@ -82,14 +84,16 @@ public class RoomActivity extends AppCompatActivity {
         bt_window.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(MapActivity.cur_status[5] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[11] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 on
                     bt_window.setSelected(true);
-                    MapActivity.cur_status[5] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MainActivity.fragment.sendMessage("s");
+                    MapActivity.cur_status[11] = 1;
                 }
-                else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
+                else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 off
                 {
                     bt_window.setSelected(false);
-                    MapActivity.cur_status[5] = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MainActivity.fragment.sendMessage("t");
+                    MapActivity.cur_status[11] = 0;
                 }
             }
         });
@@ -97,14 +101,16 @@ public class RoomActivity extends AppCompatActivity {
         bt_con.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(MapActivity.cur_status[4] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[4] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 on
                     bt_con.setSelected(true);
-                    MapActivity.cur_status[4] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MainActivity.fragment.sendMessage("k");
+                    MapActivity.cur_status[4] = 1;
                 }
-                else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
+                else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 off
                 {
                     bt_con.setSelected(false);
-                    MapActivity.cur_status[4] = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MainActivity.fragment.sendMessage("l");
+                    MapActivity.cur_status[4] = 0;
                 }
             }
         });
@@ -189,5 +195,19 @@ public class RoomActivity extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
 
+    }
+
+    public void ctl(int id){
+        switch(id){
+            case R.id.bt_light:
+
+                break;
+            case R.id.bt_con:
+
+                break;
+            case R.id.bt_win:
+
+                break;
+        }
     }
 }

@@ -1,10 +1,6 @@
 package com.example.android.bluetoothchat.data;
 
-import android.content.Intent;
-
-import com.example.android.bluetoothchat.ModeActivity;
 import com.example.android.bluetoothchat.data.model.LoggedInUser;
-import com.example.android.bluetoothchat.ui.login.LoginActivity;
 
 import java.io.IOException;
 

@@ -1,10 +1,5 @@
 package com.example.android.bluetoothchat.data;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
-
-import com.example.android.bluetoothchat.ModeActivity;
-
 /**
  * A generic class that holds a result success w/ data or an error exception.
  */

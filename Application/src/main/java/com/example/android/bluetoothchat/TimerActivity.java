@@ -28,10 +28,12 @@ public class TimerActivity extends AppCompatActivity {
 
     //배열
     // cur_status
-    // kitchen - 0~2 light/con/valve
-    // room - 3~5 light/con/window
+    // kitchen - 0,1 light/con
+    // room - 3,4 light/con
     // bath - 6,7 light/con
     // living - 8~10 light/con/window
+    // room - 11 window
+    // kitchen - 12 valve
 
 
     @Override

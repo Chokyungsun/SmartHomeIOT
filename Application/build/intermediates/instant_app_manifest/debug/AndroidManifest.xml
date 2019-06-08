@@ -52,9 +52,6 @@
             android:label="@string/select_device"
             android:theme="@android:style/Theme.Holo.Dialog" />
         <activity
-            android:name="com.example.android.bluetoothchat.ModeActivity"
-            android:theme="@style/BaseTheme" />
-        <activity
             android:name="com.example.android.bluetoothchat.MapActivity"
             android:theme="@style/BaseTheme" />
         <activity
@@ -71,6 +68,9 @@
             android:theme="@style/BaseTheme" />
         <activity
             android:name="com.example.android.bluetoothchat.TimerActivity"
+            android:theme="@style/BaseTheme" />
+        <activity
+            android:name="com.example.android.bluetoothchat.ModeActivity"
             android:theme="@style/BaseTheme" />
 
         <provider

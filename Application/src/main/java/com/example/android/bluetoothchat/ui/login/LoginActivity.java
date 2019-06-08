@@ -21,7 +21,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.bluetoothchat.MapActivity;
-import com.example.android.bluetoothchat.ModeActivity;
 import com.example.android.common.logger.Log;
 
 import com.example.android.bluetoothchat.MainActivity;
