@@ -1,13 +1,17 @@
 package com.example.android.bluetoothchat.ui.login;
 
 import android.app.Activity;
+import android.app.ActivityManager;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
+import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -21,17 +25,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.android.bluetoothchat.MapActivity;
-import com.example.android.bluetoothchat.ModeActivity;
 import com.example.android.common.logger.Log;
 
 import com.example.android.bluetoothchat.MainActivity;
 import com.example.android.bluetoothchat.R;
 
+import java.util.List;
+
 
 public class LoginActivity extends AppCompatActivity {
 //    BluetoothChatFragment fragment;
     private LoginViewModel loginViewModel;
-    private static Context context;
+    public static Context context;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -184,9 +189,9 @@ public class LoginActivity extends AppCompatActivity {
         MainActivity.fragment.sendMessage("t");
     }
 
-    public static void alert(){
+    public static void alert() {
         Log.e("aaa", "alert");
-        Toast.makeText(context ,"alert", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "침입자가 감지되었습니다. 앱을 실행해서 신고여부를 결정 해주세요.", Toast.LENGTH_LONG).show();
     }
 
 }

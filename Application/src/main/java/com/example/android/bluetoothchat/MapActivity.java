@@ -1,8 +1,10 @@
 package com.example.android.bluetoothchat;
 
 import android.app.Application;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,6 +24,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
+
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
 
     private Animation fab_open, fab_close;
@@ -33,12 +37,17 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     private NavigationView navigationView;
 
     //배열
-    static int[] cur_status = new int[12];
-    // kitchen - 0~2 light/con/valve
-    // room - 3~5 light/con/window
+    static int[] cur_status = new int[13];
+    // kitchen - 0,1 light/con
+    // room - 3,4 light/con
     // bath - 6,7 light/con
     // living - 8~10 light/con/window
+    // room - 11 window
+    // kitchen - 12 valve
+    // 2,5 - 사용 x
 
+    static int[] in_mode = new int[13];
+    static int[] out_mode = new int[13];
     //mode
     static int mode;
 
@@ -76,10 +85,10 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
-        TextView idv = navigationView.getHeaderView(0).findViewById(R.id.textView2);
-        Intent i2 = getIntent();
-        String email = i2.getExtras().getString("id'");
-        idv.setText("aa");
+//        TextView idv = navigationView.getHeaderView(0).findViewById(R.id.textView2);
+//        Intent i2 = getIntent();
+//        String email = i2.getExtras().getString("id'");
+//        idv.setText("aa");
 
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -126,7 +135,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
                         startActivity(intent);
                         break;
-
                     case R.id.timer_bar:
                         Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), TimerActivity.class);
@@ -149,62 +157,70 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 anim();
                 imgv.setImageResource(R.drawable.in_mode);
                 mode = 0;
-//                setTitle("실내모드");
+                Toast.makeText(this, "실내 모드가 적용되었습니다.",Toast.LENGTH_SHORT).show();
+                Log.e("inside","in mode");
+                in_set(13);
+                //setting in mode
                 break;
             case R.id.fab_outside:
                 anim();
                 mode = 1;
                 imgv.setImageResource(R.drawable.out_mode);
-//                setTitle("실외모드");
+                Toast.makeText(this, "외출 모드가 적용되었습니다.",Toast.LENGTH_SHORT).show();
+                Log.e("outside","out mode");
+                for(int i =  0  ; i <  13 ;  i++) {
+                    in_mode[i] = cur_status[i];
+                }
+                cmpArr(13);
                 break;
         }
     }
 
-        public void anim() {
+    public void anim() {
 
-            if (isFabOpen) {
-                fab1.startAnimation(fab_close);
-                fab2.startAnimation(fab_close);
-                fab1.setClickable(false);
-                fab2.setClickable(false);
-                isFabOpen = false;
-            } else {
-                fab1.startAnimation(fab_open);
-                fab2.startAnimation(fab_open);
-                fab1.setClickable(true);
-                fab2.setClickable(true);
-                isFabOpen = true;
-            }
+        if (isFabOpen) {
+            fab1.startAnimation(fab_close);
+            fab2.startAnimation(fab_close);
+            fab1.setClickable(false);
+            fab2.setClickable(false);
+            isFabOpen = false;
+        } else {
+            fab1.startAnimation(fab_open);
+            fab2.startAnimation(fab_open);
+            fab1.setClickable(true);
+            fab2.setClickable(true);
+            isFabOpen = true;
         }
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id){
+        switch (id) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
         }
         return super.onOptionsItemSelected(item);
     }
-
-    public void onClick1(View v) {
+    // map button onclick methods
+    public void goLiv(View v) {
         Intent intent = new Intent(getApplicationContext(), LivingActivity.class);
         startActivity(intent);
     }
 
-    public void onClick2(View v) {
+    public void goBath(View v) {
         Intent intent = new Intent(getApplicationContext(), BathActivity.class);
         startActivity(intent);
     }
 
-    public void onClick3(View v){
+    public void goRoom(View v){
         Intent intent = new Intent(getApplicationContext(), RoomActivity.class);
         startActivity(intent);
     }
 
-    public void onClick4(View v) {
+    public void goKit(View v) {
         Intent intent = new Intent(getApplicationContext(), KitchenActivity.class);
         startActivity(intent);
     }
@@ -234,8 +250,221 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         ad.show();
     }
 
+    private void in_set(int len){
+        for(int j = 0 ; j < len*10000 ; j++){
+            if(j%10000 != 0) continue;
+            int i =  j/10000;
+            Log.e("in",""+in_mode[i]);
+            Log.e("cur",""+cur_status[i]);
+            Log.e("out",""+MapActivity.out_mode[i]);
+            if(in_mode[i] != cur_status[i]) {
+                if (in_mode[i] == 0) {
+                    //off
+                    cur_status[i] = 0;
+                    switch (i) {
+                        case 0:
+                            MainActivity.fragment.sendMessage("h");
+                            break;
+                        case 1:
+                            MainActivity.fragment.sendMessage("p");
+                            break;
+                        case 2:
+                            break; //x
+                        case 3:
+                            MainActivity.fragment.sendMessage("d");
+                            break;
+                        case 4:
+                            MainActivity.fragment.sendMessage("l");
+                            break;
+                        case 5:
+                            break; //x
+                        case 6:
+                            MainActivity.fragment.sendMessage("f");
+                            break;
+                        case 7:
+                            MainActivity.fragment.sendMessage("n");
+                            break;
+                        case 8:
+                            MainActivity.fragment.sendMessage("b");
+                            break;
+                        case 9:
+                            MainActivity.fragment.sendMessage("j");
+                            break;
+                        case 10:
+                            MainActivity.fragment.sendMessage("r"); //거실 창
+                            break;
+                        case 11:
+                            MainActivity.fragment.sendMessage("t"); //칭실 창
+                            break;
+                        case 12:
+                            MainActivity.fragment.sendMessage("v"); //주방 가스밸브
+                            break;
+
+                    }
+                } else if (in_mode[i] == 1) {
+                    //on
+                    cur_status[i] = 1;
+                    switch (i) {
+                        case 0:
+                            MainActivity.fragment.sendMessage("g");
+                            break;
+                        case 1:
+                            MainActivity.fragment.sendMessage("o");
+                            break;
+                        case 2:
+                            break;
+                        case 3:
+                            MainActivity.fragment.sendMessage("c");
+                            break;
+                        case 4:
+                            MainActivity.fragment.sendMessage("k");
+                            break;
+                        case 5:
+                            break;
+                        case 6:
+                            MainActivity.fragment.sendMessage("e");
+                            break;
+                        case 7:
+                            MainActivity.fragment.sendMessage("m");
+                            break;
+                        case 8:
+                            MainActivity.fragment.sendMessage("a");
+                            break;
+                        case 9:
+                            MainActivity.fragment.sendMessage("i");
+                            break;
+                        case 10:
+                            MainActivity.fragment.sendMessage("q");
+                            break;
+                        case 11:
+                            MainActivity.fragment.sendMessage("s");
+                            break;
+                        case 12:
+                            MainActivity.fragment.sendMessage("w"); //주방 가스밸브
+                            break;
+                    }
+                }
+            }
+        }
+    }
 
 
+    private void cmpArr(int len){
+        for(int j = 0 ; j < len*10000 ; j++){
+            if(j%10000 != 0) continue;
+            int i = j/10000;
+            Log.e(".",".");
+            Log.e("out",""+out_mode[i]);
+            Log.e("cur",""+cur_status[i]);
+            Log.e("int",""+MapActivity.in_mode[i]);
+            if(cur_status[i] != out_mode[i]){
+                if(out_mode[i] == 0){
+                    //off
+                    cur_status[i] = 0;
+                    switch(i){
+                        case 0:
+                            MainActivity.fragment.sendMessage("h");
+                            break;
+                        case 1:
+                            MainActivity.fragment.sendMessage("p");
+                            break;
+                        case 2:
+//                            MainActivity.fragment.sendMessage("");
+                            break;
+                        case 3:
+                            MainActivity.fragment.sendMessage("d");
+                            break;
+                        case 4:
+                            MainActivity.fragment.sendMessage("l");
+                            break;
+                        case 5:
+                            break;
+                        case 6:
+                            MainActivity.fragment.sendMessage("f");
+                            break;
+                        case 7:
+                            MainActivity.fragment.sendMessage("n");
+                            break;
+                        case 8:
+                            MainActivity.fragment.sendMessage("b");
+                            break;
+                        case 9:
+                            MainActivity.fragment.sendMessage("j");
+                            break;
+                        case 10:
+                            MainActivity.fragment.sendMessage("r"); //거실 창
+                            break;
+                        case 11:
+                            MainActivity.fragment.sendMessage("t"); //침실 창
+                            break;
+                        case 12:
+                            MainActivity.fragment.sendMessage("v"); //주방 가스밸브
+                            break;
 
+                    }
+                }
+                else if(out_mode[i] == 1){
+                    //on
+                    cur_status[i] = 1;
+                    switch(i){
+                        case 0:
+                            MainActivity.fragment.sendMessage("g");
+                            break;
+                        case 1:
+                            MainActivity.fragment.sendMessage("o");
+                            break;
+                        case 2:
+//                            MainActivity.fragment.sendMessage("");
+                            break;
+                        case 3:
+                            MainActivity.fragment.sendMessage("c");
+                            break;
+                        case 4:
+                            MainActivity.fragment.sendMessage("k");
+                            break;
+                        case 5:
+                            break;
+                        case 6:
+                            MainActivity.fragment.sendMessage("e");
+                            break;
+                        case 7:
+                            MainActivity.fragment.sendMessage("m");
+                            break;
+                        case 8:
+                            MainActivity.fragment.sendMessage("a");
+                            break;
+                        case 9:
+                            MainActivity.fragment.sendMessage("i");
+                            break;
+                        case 10:
+                            MainActivity.fragment.sendMessage("q"); //거실 창
+                            break;
+                        case 11:
+                            MainActivity.fragment.sendMessage("s"); //침실 창
+                            break;
+                        case 12:
+                            MainActivity.fragment.sendMessage("w"); //주방 가스밸브
+                            break;
+                    }
+                }
+            }
+        }
+    }
+
+    public void on(View v){
+        for(int i = 0 ; i < 13 ; i++){
+            Log.e("in",""+MapActivity.in_mode[i]);
+        }
+        Log.e("","--------------------------------");
+
+        for(int i = 0 ; i < 13 ; i++){
+            Log.e("out",""+MapActivity.out_mode[i]);
+        }
+
+        Log.e("","--------------------------------");
+        for(int i = 0 ; i < 13 ; i++){
+            Log.e("cur",""+MapActivity.cur_status[i]);
+        }
+    }
 
 }
