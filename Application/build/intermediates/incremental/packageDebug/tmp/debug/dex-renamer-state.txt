@@ -1,4 +1,4 @@
-#Sun Jun 09 01:29:53 KST 2019
-base.0=C\:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+#Sun Jun 09 01:44:20 KST 2019
+base.0=/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/dex/debug/mergeDexDebug/out
 path.0=classes.dex
 renamed.0=classes.dex

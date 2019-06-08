@@ -1,232 +1,232 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-74:12
-MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\493ccf9ff62922933f00320254faa1d3\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\f636cc53ce438628ea2eaeceff4817c6\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\25819f0a50acb9902e088b8fb82d0561\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ab3af81fbb044a32a16753d935332813\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\b73d2fd861d05c2c33fa04423345d534\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\c8f63c3678a240a7dfe2401aeff395e9\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:17:1-30:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\010c26f60bd5265bb73551f670c26e8d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\953c2b00521956554dd814a9a4830470\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\c72641efc4ebe418ad16ff304a38ae66\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\59f99eb1647a0ff4ca02f0e24e3ee664\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\655294bf229b772822ba0c11ea8797db\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\4860d9eb8c315576e73bef140e2ab560\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\4f3a0c3a83d378fe44e66273f7dfd85d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ad12a3a057382e3a753ff0e9647cdb6b\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\6a893b6767dcf46d362326b0f205a9fb\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\5c9ce53820123efe461a1725dbc01bb1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\65a9c36394d943a78e0d9a932348c4f0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ecc363d164b2a305223415536fce89a0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\8b642d16e117d5e8e12ce3a77b66a497\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-74:12
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:1-74:12
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-74:12
+MERGED from [com.android.support:gridlayout-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/0d43b9b6ce3841fde1404b9df370f3de/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/cbae6a99c0e291ea46a2aa494597a4cb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/1a9ebcc7930358c0303a0ea5ee2c86d7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/da356541daec1926b0ae89811f0b9f21/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/703b4e511f6b69a9e2d6b7d39882efc3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:17:1-30:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/c614b5f5213e6be09df966b46763af99/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/efbdda2789cfcc06ea6b004787d20598/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/6e6fc451b92c905172af815ff2b9a135/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/bab90b54afdbf03a1ab0259a3787939c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/9b8f57171010aea4fcb4879dbb1b6864/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/65da3fd2cf199c2e2684813203ac2958/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/b99631b4e01700d0fc7c040cd65031aa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/8a27a0a1f56c92fc17c3a0c6a917b9a7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/ef949bd413ab8e3385c201cc77e1b926/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/5074e6e2cabda18cf7c4f9fd5ad68429/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/c703623a7ed375db1a866ab7e64c0bb8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/6b3e185177bd2330251e75f376727c1b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/27420cfc9d712bcd1c24b59c8292066c/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-74:12
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:1-74:12
 	package
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:3:5-48
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:3:5-48
 	android:versionName
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:7:5-74
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:7:5-74
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:7:22-71
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:7:22-71
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:8:5-68
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:8:5-68
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:8:22-65
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:8:22-65
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:9:5-71
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:9:5-71
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:9:22-68
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:9:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:10:5-71
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:10:22-68
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:10:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:11:5-72
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:11:5-72
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:11:22-69
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:11:22-69
 application
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:13:5-72:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:9:5-20
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:22:5-28:19
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:22:5-28:19
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:13:5-72:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/1a9ebcc7930358c0303a0ea5ee2c86d7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/1a9ebcc7930358c0303a0ea5ee2c86d7/AndroidManifest.xml:9:5-20
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:22:5-28:19
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:16:9-28
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:16:9-28
 	android:icon
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:15:9-38
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:15:9-38
 	android:allowBackup
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:14:9-35
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:17:9-40
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:17:9-40
 activity#com.example.android.bluetoothchat.ui.login.LoginActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:19:9-22:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:19:9-22:48
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:21:13-57
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:21:13-57
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:22:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:20:13-51
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:20:13-51
 activity#com.example.android.bluetoothchat.IntroActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:23:9-31:20
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:23:9-31:20
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:25:13-46
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:25:13-46
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:24:13-42
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:24:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:26:13-30:29
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:27:17-69
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:27:25-66
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:29:17-77
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:29:27-74
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:29:27-74
 activity#com.example.android.bluetoothchat.MainActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:32:9-42:20
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:32:9-42:20
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:35:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:35:13-41
 	android:configChanges
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:34:13-63
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:34:13-63
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:36:13-44
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:33:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:33:13-41
 activity#com.example.android.bluetoothchat.DeviceListActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:43:9-47:64
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:43:9-47:64
 	android:label
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:46:13-50
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:46:13-50
 	android:configChanges
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:45:13-63
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:45:13-63
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:47:13-61
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:47:13-61
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:44:13-47
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:44:13-47
 activity#com.example.android.bluetoothchat.ModeActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:48:9-50:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:48:9-50:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:50:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:50:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:49:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:49:13-41
 activity#com.example.android.bluetoothchat.MapActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:51:9-53:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:51:9-53:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:53:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:53:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:52:13-40
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:52:13-40
 activity#com.example.android.bluetoothchat.KitchenActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:54:9-56:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:54:9-56:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:56:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:56:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:55:13-44
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:55:13-44
 activity#com.example.android.bluetoothchat.LivingActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:57:9-59:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:57:9-59:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:59:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:59:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:58:13-43
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:58:13-43
 activity#com.example.android.bluetoothchat.RoomActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:60:9-62:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:60:9-62:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:62:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:62:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:61:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:61:13-41
 activity#com.example.android.bluetoothchat.BathActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:63:9-65:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:63:9-65:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:65:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:65:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:64:13-41
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:64:13-41
 activity#com.example.android.bluetoothchat.TimerActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:66:9-68:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:66:9-68:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:68:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:68:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:67:13-42
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:67:13-42
 activity#com.example.android.bluetoothchat.PoliceActivity
-ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:69:9-71:48
+ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:69:9-71:48
 	android:theme
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:71:13-45
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:71:13-45
 	android:name
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml:70:13-43
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml:70:13-43
 uses-sdk
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\493ccf9ff62922933f00320254faa1d3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:gridlayout-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\493ccf9ff62922933f00320254faa1d3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\f636cc53ce438628ea2eaeceff4817c6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.2] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\f636cc53ce438628ea2eaeceff4817c6\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\25819f0a50acb9902e088b8fb82d0561\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\25819f0a50acb9902e088b8fb82d0561\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ab3af81fbb044a32a16753d935332813\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ab3af81fbb044a32a16753d935332813\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\fd4abb9c0af316098310643c6dc40bdf\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\b73d2fd861d05c2c33fa04423345d534\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\b73d2fd861d05c2c33fa04423345d534\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\c8f63c3678a240a7dfe2401aeff395e9\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\c8f63c3678a240a7dfe2401aeff395e9\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\010c26f60bd5265bb73551f670c26e8d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\010c26f60bd5265bb73551f670c26e8d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\953c2b00521956554dd814a9a4830470\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\953c2b00521956554dd814a9a4830470\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\c72641efc4ebe418ad16ff304a38ae66\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\c72641efc4ebe418ad16ff304a38ae66\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\59f99eb1647a0ff4ca02f0e24e3ee664\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\59f99eb1647a0ff4ca02f0e24e3ee664\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\655294bf229b772822ba0c11ea8797db\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\655294bf229b772822ba0c11ea8797db\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\4860d9eb8c315576e73bef140e2ab560\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\4860d9eb8c315576e73bef140e2ab560\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\4f3a0c3a83d378fe44e66273f7dfd85d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\4f3a0c3a83d378fe44e66273f7dfd85d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ad12a3a057382e3a753ff0e9647cdb6b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ad12a3a057382e3a753ff0e9647cdb6b\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\6a893b6767dcf46d362326b0f205a9fb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\6a893b6767dcf46d362326b0f205a9fb\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\5c9ce53820123efe461a1725dbc01bb1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\5c9ce53820123efe461a1725dbc01bb1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\65a9c36394d943a78e0d9a932348c4f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\65a9c36394d943a78e0d9a932348c4f0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ecc363d164b2a305223415536fce89a0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\ecc363d164b2a305223415536fce89a0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\8b642d16e117d5e8e12ce3a77b66a497\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\8b642d16e117d5e8e12ce3a77b66a497\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+MERGED from [com.android.support:gridlayout-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/0d43b9b6ce3841fde1404b9df370f3de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:gridlayout-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/0d43b9b6ce3841fde1404b9df370f3de/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/cbae6a99c0e291ea46a2aa494597a4cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/cbae6a99c0e291ea46a2aa494597a4cb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/1a9ebcc7930358c0303a0ea5ee2c86d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/1a9ebcc7930358c0303a0ea5ee2c86d7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/da356541daec1926b0ae89811f0b9f21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/da356541daec1926b0ae89811f0b9f21/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/703b4e511f6b69a9e2d6b7d39882efc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/703b4e511f6b69a9e2d6b7d39882efc3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/c614b5f5213e6be09df966b46763af99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/c614b5f5213e6be09df966b46763af99/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/efbdda2789cfcc06ea6b004787d20598/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/efbdda2789cfcc06ea6b004787d20598/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/6e6fc451b92c905172af815ff2b9a135/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/6e6fc451b92c905172af815ff2b9a135/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/bab90b54afdbf03a1ab0259a3787939c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/bab90b54afdbf03a1ab0259a3787939c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/9b8f57171010aea4fcb4879dbb1b6864/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/9b8f57171010aea4fcb4879dbb1b6864/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/65da3fd2cf199c2e2684813203ac2958/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/65da3fd2cf199c2e2684813203ac2958/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/b99631b4e01700d0fc7c040cd65031aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/b99631b4e01700d0fc7c040cd65031aa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/8a27a0a1f56c92fc17c3a0c6a917b9a7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/8a27a0a1f56c92fc17c3a0c6a917b9a7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/ef949bd413ab8e3385c201cc77e1b926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/ef949bd413ab8e3385c201cc77e1b926/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/5074e6e2cabda18cf7c4f9fd5ad68429/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/5074e6e2cabda18cf7c4f9fd5ad68429/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/c703623a7ed375db1a866ab7e64c0bb8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/c703623a7ed375db1a866ab7e64c0bb8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/6b3e185177bd2330251e75f376727c1b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/6b3e185177bd2330251e75f376727c1b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/27420cfc9d712bcd1c24b59c8292066c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/27420cfc9d712bcd1c24b59c8292066c/AndroidManifest.xml:20:5-44
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Cho\Desktop\mobileProgramming\SmartHomeIOT\Application\src\main\AndroidManifest.xml
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+		ADDED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
+		INJECTED from /Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/AndroidManifest.xml
 provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
-ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:23:9-27:43
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:23:9-27:43
 	android:authorities
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:25:13-68
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:25:13-68
 	android:multiprocess
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:27:13-40
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:27:13-40
 	android:exported
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:26:13-37
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [android.arch.lifecycle:extensions:1.1.1] C:\Users\Cho\.gradle\caches\transforms-2\files-2.1\053c2757e75f56cd79ca0379ae036a01\AndroidManifest.xml:24:13-83
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/heojoon/.gradle/caches/transforms-2/files-2.1/339164adc8bcffdd59fecfe533fed530/AndroidManifest.xml:24:13-83
