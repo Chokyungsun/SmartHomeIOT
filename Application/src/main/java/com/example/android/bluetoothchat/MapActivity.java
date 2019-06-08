@@ -101,43 +101,42 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 // 각 메뉴 클릭시 이뤄지는 이벤트
                 switch (id) {
                     case R.id.mode_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.map_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), MapActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.living_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), LivingActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.kitchen_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), KitchenActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.bath_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), BathActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.room_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
                         startActivity(intent);
                         break;
+
                     case R.id.timer_bar:
-                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), TimerActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.police_bar:
+                        intent = new Intent(getApplicationContext(), PoliceActivity.class);
                         startActivity(intent);
                         break;
                 }
@@ -223,31 +222,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     public void goKit(View v) {
         Intent intent = new Intent(getApplicationContext(), KitchenActivity.class);
         startActivity(intent);
-    }
-
-    public void open(View v) {
-        AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder((this));
-        alertDialogBuilder.setMessage("움직임이 감지되었습니다." + '\n' + "신고하시겠습니까?");
-        alertDialogBuilder.setPositiveButton("네",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MapActivity.this, "신고 완료",
-                                Toast.LENGTH_LONG).show();
-                    }
-                });
-
-        alertDialogBuilder.setNegativeButton("아니오",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MapActivity.this, "취소",
-                                Toast.LENGTH_LONG).show();
-                    }
-
-                });
-        AlertDialog ad = alertDialogBuilder.create();
-        ad.show();
     }
 
     private void in_set(int len){

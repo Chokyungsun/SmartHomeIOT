@@ -163,6 +163,11 @@ public class KitchenActivity extends AppCompatActivity {
                         intent = new Intent(getApplicationContext(), TimerActivity.class);
                         startActivity(intent);
                         break;
+
+                    case R.id.police_bar:
+                        intent = new Intent(getApplicationContext(), PoliceActivity.class);
+                        startActivity(intent);
+                        break;
                 }
                 return true;
             }

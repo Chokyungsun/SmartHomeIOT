@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+            "outputFile": "/Users/heojoon/Desktop/SmartHomeIOT/Application/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\ad12a3a057382e3a753ff0e9647cdb6b\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/values-v21/base-colors.xml",
+                    "from": {
+                        "startLines": "25,24,18,19,20,22,23,21",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "999,952,647,694,745,848,899,797",
+                        "endColumns": "45,46,46,50,51,50,52,50",
+                        "endOffsets": "1040,994,689,740,792,894,947,843"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,148,195,246,402,453,506",
+                        "endColumns": "45,46,46,50,51,50,52,50",
+                        "endOffsets": "96,143,190,241,293,448,501,552"
+                    }
+                },
+                {
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/8a27a0a1f56c92fc17c3a0c6a917b9a7/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +40,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\25819f0a50acb9902e088b8fb82d0561\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/heojoon/Desktop/SmartHomeIOT/Application/src/main/res/values-v21/base-template-styles.xml",
+                    "from": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "677",
+                        "endLines": "21",
+                        "endColumns": "12",
+                        "endOffsets": "753"
+                    },
+                    "to": {
+                        "startLines": "291",
+                        "startColumns": "4",
+                        "startOffsets": "21130",
+                        "endLines": "292",
+                        "endColumns": "12",
+                        "endOffsets": "21206"
+                    }
+                },
+                {
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/2741510a6957d1c083b08a87d67e58f3/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5",
                         "startColumns": "4,4",
@@ -42,26 +78,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\values-v21\\base-template-styles.xml",
-                    "from": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "697",
-                        "endLines": "21",
-                        "endColumns": "12",
-                        "endOffsets": "774"
-                    },
-                    "to": {
-                        "startLines": "291",
-                        "startColumns": "4",
-                        "startOffsets": "21130",
-                        "endLines": "292",
-                        "endColumns": "12",
-                        "endOffsets": "21206"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\ab3af81fbb044a32a16753d935332813\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/67425af83a3a63fbcadbadffcbf8cf77/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -80,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Cho\\.gradle\\caches\\transforms-2\\files-2.1\\4f3a0c3a83d378fe44e66273f7dfd85d\\res\\values-v21\\values-v21.xml",
+                    "source": "/Users/heojoon/.gradle/caches/transforms-2/files-2.1/b99631b4e01700d0fc7c040cd65031aa/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -96,23 +113,6 @@
                         "endLines": "279,282,286,290",
                         "endColumns": "12,12,12,12",
                         "endOffsets": "20373,20536,20830,21125"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Cho\\Desktop\\mobileProgramming\\SmartHomeIOT\\Application\\src\\main\\res\\values-v21\\base-colors.xml",
-                    "from": {
-                        "startLines": "25,24,18,19,20,22,23,21",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "1024,976,665,713,765,870,922,818",
-                        "endColumns": "45,46,46,50,51,50,52,50",
-                        "endOffsets": "1065,1018,707,759,812,916,970,864"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,101,148,195,246,402,453,506",
-                        "endColumns": "45,46,46,50,51,50,52,50",
-                        "endOffsets": "96,143,190,241,293,448,501,552"
                     }
                 }
             ]

@@ -144,54 +144,11 @@ public class LoginActivity extends AppCompatActivity {
         Toast.makeText(getApplicationContext(), errorString, Toast.LENGTH_SHORT).show();
     }
 
-    public void Ultra(View v){
-        MainActivity.fragment.sendMessage("u");
-//        Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
-//        startActivity(intent);
-    }
-
-    public void LED1ON(View w){
-        MainActivity.fragment.sendMessage("a");
-    }
-    public void LED1OFF(View w){
-        MainActivity.fragment.sendMessage("b");
-    }
-    public void LED2ON(View w) { MainActivity.fragment.sendMessage("c"); }
-    public void LED2OFF(View w) { MainActivity.fragment.sendMessage("d"); }
-    public void LED3ON(View w) { MainActivity.fragment.sendMessage("e"); }
-    public void LED3OFF(View w) { MainActivity.fragment.sendMessage("f"); }
-    public void LED4ON(View w) { MainActivity.fragment.sendMessage("g"); }
-    public void LED4OFF(View w) { MainActivity.fragment.sendMessage("h"); }
-
-    public void LED5ON(View w){
-        MainActivity.fragment.sendMessage("i");
-    }
-    public void LED5OFF(View w){
-        MainActivity.fragment.sendMessage("j");
-    }
-    public void LED6ON(View w) { MainActivity.fragment.sendMessage("k"); }
-    public void LED6OFF(View w) { MainActivity.fragment.sendMessage("l"); }
-    public void LED7ON(View w) { MainActivity.fragment.sendMessage("m"); }
-    public void LED7OFF(View w) { MainActivity.fragment.sendMessage("n"); }
-    public void LED8ON(View w) { MainActivity.fragment.sendMessage("o"); }
-    public void LED8OFF(View w) { MainActivity.fragment.sendMessage("p"); }
-
-    public void Motor1_180(View w){
-        MainActivity.fragment.sendMessage("q");
-    }
-    public void Motor1_0(View w){
-        MainActivity.fragment.sendMessage("r");
-    }
-    public void Motor2_180(View w){
-        MainActivity.fragment.sendMessage("s");
-    }
-    public void Motor2_0(View w){
-        MainActivity.fragment.sendMessage("t");
-    }
 
     public static void alert() {
         Log.e("aaa", "alert");
         Toast.makeText(context, "침입자가 감지되었습니다. 앱을 실행해서 신고여부를 결정 해주세요.", Toast.LENGTH_LONG).show();
+        MainActivity.fragment.sendMessage("x");
     }
 
 }
