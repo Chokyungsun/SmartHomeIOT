@@ -19,6 +19,7 @@
         android:debuggable="true"
         android:icon="@drawable/logo"
         android:label="IoT"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.android.bluetoothchat.TimerActivity" />
         <activity
