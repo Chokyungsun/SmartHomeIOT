@@ -12,58 +12,84 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class RoomActivity extends AppCompatActivity {
     //button
     ImageButton bt_light;
-    ImageButton bt_valve;
+    ImageButton bt_window;
     ImageButton bt_con;
-    int light_check = 0;
-    int valve_check = 0;
-    int con_check = 0;
 
     //action bar
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
 
+    ImageView imgv;
+
+    //배열
+    // cur_status
+    // kitchen - 0~2 light/con/valve
+    // room - 3~5 light/con/window
+    // bath - 6,7 light/con
+    // living - 8~10 light/con/window
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_room);
 
+        imgv = (ImageView) findViewById(R.id.mode_img);
+        if(MapActivity.mode == 0)
+            imgv.setImageResource(R.drawable.in_mode);
+        else  if(MapActivity.mode == 1)
+            imgv.setImageResource(R.drawable.out_mode);
+
         //button
         bt_light = (ImageButton)findViewById(R.id.bt_light);
-        bt_valve = (ImageButton)findViewById(R.id.bt_valve);
+        bt_window = (ImageButton)findViewById(R.id.bt_win);
         bt_con = (ImageButton)findViewById(R.id.bt_con);
+
+        if(MapActivity.cur_status[3] == 1) {
+            bt_light.setSelected(true);
+            bt_light.setPressed(true);
+        }
+        if(MapActivity.cur_status[4] == 1) {
+            bt_con.setSelected(true);
+            bt_con.setPressed(true);
+        }
+        if(MapActivity.cur_status[5] == 1) {
+            bt_window.setSelected(true);
+            bt_window.setPressed(true);
+        }
 
         bt_light.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(light_check == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[3] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
                     bt_light.setSelected(true);
-                    light_check = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MapActivity.cur_status[3] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
                     bt_light.setSelected(false);
-                    light_check = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MapActivity.cur_status[3] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }
         });
 
-        bt_valve.setOnClickListener(new View.OnClickListener() {
+        bt_window.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(valve_check == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
-                    bt_valve.setSelected(true);
-                    valve_check = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                if(MapActivity.cur_status[5] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                    bt_window.setSelected(true);
+                    MapActivity.cur_status[5] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
-                    bt_valve.setSelected(false);
-                    valve_check = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    bt_window.setSelected(false);
+                    MapActivity.cur_status[5] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }
         });
@@ -71,14 +97,14 @@ public class RoomActivity extends AppCompatActivity {
         bt_con.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
-                if(con_check == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
+                if(MapActivity.cur_status[4] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
                     bt_con.setSelected(true);
-                    con_check = 1; // 다음에 누르면 색이 변하도록 값을 변경.
+                    MapActivity.cur_status[4] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
                     bt_con.setSelected(false);
-                    con_check = 0; //다음에 누르면 색이 변하도록 값을 변경
+                    MapActivity.cur_status[4] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }
         });
@@ -105,38 +131,37 @@ public class RoomActivity extends AppCompatActivity {
                 // 각 메뉴 클릭시 이뤄지는 이벤트
                 switch (id){
                     case R.id.mode_bar:
-                        Toast.makeText(RoomActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         Intent intent = new Intent(getApplicationContext(), ModeActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.map_bar:
-                        Toast.makeText(RoomActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), MapActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.living_bar:
-                        Toast.makeText(RoomActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), LivingActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.kitchen_bar:
-                        Toast.makeText(RoomActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), KitchenActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.bath_bar:
-                        Toast.makeText(RoomActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), BathActivity.class);
                         startActivity(intent);
                         break;
 
                     case R.id.room_bar:
-                        Toast.makeText(RoomActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
+                        startActivity(intent);
+                        break;
+
+                    case R.id.timer_bar:
+                        intent = new Intent(getApplicationContext(), TimerActivity.class);
                         startActivity(intent);
                         break;
                 }
@@ -145,6 +170,12 @@ public class RoomActivity extends AppCompatActivity {
             }
         });
         Log.e("Frag", "Fragment");
+    }
+
+    @Override
+    public void onBackPressed() {
+        Intent intent = new Intent(getApplicationContext(), MapActivity.class);
+        startActivity(intent);
     }
 
     @Override

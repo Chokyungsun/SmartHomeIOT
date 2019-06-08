@@ -2,17 +2,33 @@
 
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".KitchenActivity">
+
+        <TextView
+            android:id="@+id/kitchen"
+            android:layout_width="106dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="150dp"
+            android:layout_marginRight="150dp"
+            android:layout_marginBottom="600dp"
+            android:text="주   방"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mode_img" />
 
         <ImageButton
 
@@ -28,17 +44,14 @@
 
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="40dp"
             android:layout_marginEnd="200dp"
             android:layout_marginRight="200dp"
-            android:layout_marginBottom="100dp"
             android:background="@drawable/light_click"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.777"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.473" />
+            app:layout_constraintTop_toBottomOf="@+id/kitchen" />
 
         <ImageButton
 
@@ -52,19 +65,16 @@
 
             android:layout_centerHorizontal="true"
 
-            android:layout_marginStart="19dp"
-            android:layout_marginLeft="19dp"
-            android:layout_marginTop="58dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="200dp"
             android:layout_marginRight="200dp"
-            android:layout_marginBottom="35dp"
             android:background="@drawable/valve_click"
-            app:layout_constraintBottom_toTopOf="@+id/bt_light"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.806"
+            app:layout_constraintHorizontal_bias="0.811"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/kitchen_bar"
-            app:layout_constraintVertical_bias="0.161" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_light" />
 
         <ImageButton
 
@@ -80,17 +90,14 @@
 
             android:layout_marginStart="32dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginTop="200dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="200dp"
             android:layout_marginRight="200dp"
-            android:layout_marginBottom="100dp"
             android:background="@drawable/con_click"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.777"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.953" />
+            app:layout_constraintTop_toBottomOf="@+id/bt_valve" />
 
 
         <android.support.v7.widget.Toolbar
@@ -98,11 +105,69 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            android:theme="@style/ThemeOverlay.AppCompat.Dark">
+            android:elevation="4dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            tools:ignore="MissingConstraints">
 
         </android.support.v7.widget.Toolbar>
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="조  명"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/kitchen" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="가스밸브"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"
+            android:text="콘센트"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <ImageView
+            android:id="@+id/mode_img"
+            android:layout_width="408dp"
+            android:layout_height="107dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/in_mode" />
+
+    </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.NavigationView
         android:id="@+id/navigation_view"

@@ -1,5 +1,6 @@
 package com.example.android.bluetoothchat;
 
+import android.app.Application;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
@@ -16,6 +17,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
@@ -28,24 +32,29 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
 
-//    //배열
-//    int[] arr = new int[12];
-//    int liv_light = 0;
-//    int liv_valve = 0;
-//    int liv_con = 0;
+    //배열
+    static int[] cur_status = new int[12];
+    // kitchen - 0~2 light/con/valve
+    // room - 3~5 light/con/window
+    // bath - 6,7 light/con
+    // living - 8~10 light/con/window
+
+    //mode
+    static int mode;
+
+    // image view
+    ImageView imgv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
 
-//        Intent intent = getIntent();
-//        if(intent != null)
-//            arr = intent.getExtras().getIntArray("arr");
-//
-//        liv_light = arr[0];
-//        liv_valve = arr[1];
-//        liv_con = arr[2];
+        imgv =  (ImageView) findViewById(R.id.mode_img);
+        if(MapActivity.mode == 0)
+            imgv.setImageResource(R.drawable.in_mode);
+        else  if(MapActivity.mode == 1)
+            imgv.setImageResource(R.drawable.out_mode);
 
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab);
         fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
@@ -66,6 +75,12 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         ActionBar actionBar = getSupportActionBar();
         actionBar.setHomeAsUpIndicator(R.drawable.ic_menu);
         actionBar.setDisplayHomeAsUpEnabled(true);
+
+        TextView idv = navigationView.getHeaderView(0).findViewById(R.id.textView2);
+        Intent i2 = getIntent();
+        String email = i2.getExtras().getString("id'");
+        idv.setText("aa");
+
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -111,6 +126,12 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
                         startActivity(intent);
                         break;
+
+                    case R.id.timer_bar:
+                        Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
+                        intent = new Intent(getApplicationContext(), TimerActivity.class);
+                        startActivity(intent);
+                        break;
                 }
 
                 return true;
@@ -118,47 +139,49 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         });
         Log.e("Frag", "Fragment");
     }
-
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
             case R.id.fab:
                 anim();
-                Toast.makeText(this, "Floating Action Button", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.fab_inside:
                 anim();
-                Toast.makeText(this, "Button1", Toast.LENGTH_SHORT).show();
+                imgv.setImageResource(R.drawable.in_mode);
+                mode = 0;
+//                setTitle("실내모드");
                 break;
             case R.id.fab_outside:
                 anim();
-                Toast.makeText(this, "Button2", Toast.LENGTH_SHORT).show();
+                mode = 1;
+                imgv.setImageResource(R.drawable.out_mode);
+//                setTitle("실외모드");
                 break;
         }
     }
 
-    public void anim() {
+        public void anim() {
 
-        if (isFabOpen) {
-            fab1.startAnimation(fab_close);
-            fab2.startAnimation(fab_close);
-            fab1.setClickable(false);
-            fab2.setClickable(false);
-            isFabOpen = false;
-        } else {
-            fab1.startAnimation(fab_open);
-            fab2.startAnimation(fab_open);
-            fab1.setClickable(true);
-            fab2.setClickable(true);
-            isFabOpen = true;
+            if (isFabOpen) {
+                fab1.startAnimation(fab_close);
+                fab2.startAnimation(fab_close);
+                fab1.setClickable(false);
+                fab2.setClickable(false);
+                isFabOpen = false;
+            } else {
+                fab1.startAnimation(fab_open);
+                fab2.startAnimation(fab_open);
+                fab1.setClickable(true);
+                fab2.setClickable(true);
+                isFabOpen = true;
+            }
         }
-    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id) {
+        switch (id){
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -168,7 +191,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
 
     public void onClick1(View v) {
         Intent intent = new Intent(getApplicationContext(), LivingActivity.class);
-        //intent.putExtra("arr", arr);
         startActivity(intent);
     }
 
@@ -177,7 +199,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         startActivity(intent);
     }
 
-    public void onClick3(View v) {
+    public void onClick3(View v){
         Intent intent = new Intent(getApplicationContext(), RoomActivity.class);
         startActivity(intent);
     }
@@ -211,6 +233,9 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         AlertDialog ad = alertDialogBuilder.create();
         ad.show();
     }
+
+
+
 
 
 }
