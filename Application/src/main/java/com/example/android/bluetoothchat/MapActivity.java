@@ -1,8 +1,10 @@
 package com.example.android.bluetoothchat;
 
 import android.app.Application;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,9 +19,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
+
+
 
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -30,7 +32,8 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     private Toolbar toolbar;
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
-
+    private static final String TAG = "MapActivity";
+    private Context context;
     //배열
     static int[] cur_status = new int[12];
     // kitchen - 0~2 light/con/valve
@@ -43,6 +46,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_map);
+        context = getApplicationContext();
 
         fab_open = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab);
         fab_close = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fab_close);
@@ -209,6 +213,7 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 });
         AlertDialog ad = alertDialogBuilder.create();
         ad.show();
+
     }
 
 

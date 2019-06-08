@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "831501128016",
+    "firebase_url": "https://smarthomeiot-fdc35.firebaseio.com",
+    "project_id": "smarthomeiot-fdc35",
+    "storage_bucket": "smarthomeiot-fdc35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831501128016:android:28b8c89c17dffa46",
+        "android_client_info": {
+          "package_name": "com.example.android.bluetoothchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831501128016-hnpqt515ejvb8ug0porfv2n3kdqjgr7v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChj5vtWgGeRPlBNRsot1QUy0vY6woPQhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831501128016-hnpqt515ejvb8ug0porfv2n3kdqjgr7v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
