@@ -12,12 +12,14 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 public class LivingActivity extends AppCompatActivity {
     ImageButton bt_light;
-    ImageButton bt_valve;
+    ImageButton bt_window;
     ImageButton bt_con;
+    ImageView imgv;
 
     //배열
     // cur_status
@@ -36,9 +38,14 @@ public class LivingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_living);
 
+        imgv = (ImageView) findViewById(R.id.mode_img);
+        if(MapActivity.mode == 0)
+            imgv.setImageResource(R.drawable.in_mode);
+        else  if(MapActivity.mode == 1)
+            imgv.setImageResource(R.drawable.out_mode);
 
         bt_light = (ImageButton)findViewById(R.id.bt_light);
-        bt_valve = (ImageButton)findViewById(R.id.bt_valve);
+        bt_window = (ImageButton)findViewById(R.id.bt_win);
         bt_con = (ImageButton)findViewById(R.id.bt_con);
 
         if(MapActivity.cur_status[8] == 1) {
@@ -50,8 +57,8 @@ public class LivingActivity extends AppCompatActivity {
             bt_con.setPressed(true);
         }
         if(MapActivity.cur_status[10] == 1) {
-            bt_valve.setSelected(true);
-            bt_valve.setPressed(true);
+            bt_window.setSelected(true);
+            bt_window.setPressed(true);
         }
 
         bt_light.setOnClickListener(new View.OnClickListener() {
@@ -69,16 +76,16 @@ public class LivingActivity extends AppCompatActivity {
             }
         });
 
-        bt_valve.setOnClickListener(new View.OnClickListener() {
+        bt_window.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) { //클릭했을경우
                 if(MapActivity.cur_status[10] == 0) {//CHECK_NUM 이0 일경우 setSelected를 true로 줘서 초록스위치가 나오게 한다
-                    bt_valve.setSelected(true);
+                    bt_window.setSelected(true);
                     MapActivity.cur_status[10] = 1; // 다음에 누르면 색이 변하도록 값을 변경.
                 }
                 else //CHECK_NUM 0이 아니면 setSelected를 false로 줘서 빨간 스위치가 나오게 한다.
                 {
-                    bt_valve.setSelected(false);
+                    bt_window.setSelected(false);
                     MapActivity.cur_status[10] = 0; //다음에 누르면 색이 변하도록 값을 변경
                 }
             }

@@ -3,30 +3,39 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/mode_bar"
-            android:title="mode" />
-        <item
             android:id="@+id/map_bar"
-            android:title="map" />
+            android:icon="@drawable/house"
+            android:title="HOME" />
+
         <item
             android:id="@+id/living_bar"
-            android:title="living room" />
+            android:icon="@drawable/livingroom"
+            android:title="거  실" />
 
         <item
             android:id="@+id/kitchen_bar"
-            android:title="kitchen" />
-
-        <item
-            android:id="@+id/bath_bar"
-            android:title="bath room" />
+            android:icon="@drawable/kitchen"
+            android:title="주  방" />
 
         <item
             android:id="@+id/room_bar"
-            android:title="room" />
+            android:icon="@drawable/bed"
+            android:title="침  실" />
+
+        <item
+            android:id="@+id/bath_bar"
+            android:icon="@drawable/toilet"
+            android:title="화 장 실" />
+
+        <item
+            android:id="@+id/mode_bar"
+            android:icon="@drawable/exit"
+            android:title="외출모드 설정" />
 
         <item
             android:id="@+id/timer_bar"
-            android:title="timer" />
+            android:icon="@drawable/bar_clock"
+            android:title="예약 모드" />
     </group>
 </menu>
 
