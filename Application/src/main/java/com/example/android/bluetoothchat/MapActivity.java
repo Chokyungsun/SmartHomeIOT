@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,6 +23,8 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+
 
 public class MapActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -132,7 +135,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                         intent = new Intent(getApplicationContext(), RoomActivity.class);
                         startActivity(intent);
                         break;
-
                     case R.id.timer_bar:
                         Toast.makeText(MapActivity.this, item.getTitle(), Toast.LENGTH_LONG).show();
                         intent = new Intent(getApplicationContext(), TimerActivity.class);
@@ -145,15 +147,12 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         });
         Log.e("Frag", "Fragment");
     }
-
     public void onClick(View v) {
         int id = v.getId();
         switch (id) {
-
             case R.id.fab:
                 anim();
                 break;
-
             case R.id.fab_inside:
                 anim();
                 imgv.setImageResource(R.drawable.in_mode);
@@ -163,7 +162,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
                 in_set(13);
                 //setting in mode
                 break;
-
             case R.id.fab_outside:
                 anim();
                 mode = 1;
@@ -178,28 +176,28 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         }
     }
 
-        public void anim() {
+    public void anim() {
 
-            if (isFabOpen) {
-                fab1.startAnimation(fab_close);
-                fab2.startAnimation(fab_close);
-                fab1.setClickable(false);
-                fab2.setClickable(false);
-                isFabOpen = false;
-            } else {
-                fab1.startAnimation(fab_open);
-                fab2.startAnimation(fab_open);
-                fab1.setClickable(true);
-                fab2.setClickable(true);
-                isFabOpen = true;
-            }
+        if (isFabOpen) {
+            fab1.startAnimation(fab_close);
+            fab2.startAnimation(fab_close);
+            fab1.setClickable(false);
+            fab2.setClickable(false);
+            isFabOpen = false;
+        } else {
+            fab1.startAnimation(fab_open);
+            fab2.startAnimation(fab_open);
+            fab1.setClickable(true);
+            fab2.setClickable(true);
+            isFabOpen = true;
         }
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
-        switch (id){
+        switch (id) {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
@@ -226,7 +224,6 @@ public class MapActivity extends AppCompatActivity implements View.OnClickListen
         Intent intent = new Intent(getApplicationContext(), KitchenActivity.class);
         startActivity(intent);
     }
-    //
 
     public void open(View v) {
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder((this));

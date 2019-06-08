@@ -818,6 +818,7 @@ drawable avd_show_password
 drawable background_intro
 drawable bar_clock
 drawable bed
+drawable bluetooth
 drawable button_click
 drawable con_click
 drawable con_off
@@ -834,6 +835,7 @@ drawable edge_line
 drawable exit
 drawable house
 drawable ic_action_device_access_bluetooth_searching
+drawable ic_action_device_access_bluetooth_searching_1
 drawable ic_launcher
 drawable ic_menu
 drawable in_mode
@@ -923,7 +925,6 @@ id bt_con
 id bt_light
 id bt_valve
 id bt_win
-id button
 id button10
 id button11
 id button12

@@ -21,13 +21,17 @@ import android.app.Activity;
 //import android.app.Fragment;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
+import android.os.PowerManager;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.app.AlertDialog;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -89,6 +93,7 @@ public class BluetoothChatFragment extends Fragment implements Serializable {
      * Member object for the chat services
      */
     public BluetoothChatService mChatService = null;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
